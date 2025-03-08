@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.mycontainer {
+          width:100%;
+          overflow:auto;
+        }
+        div.mycontainer div {
+          width:50%; 
+          float:left;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="mycontainer">
+    <h1 style="margin:auto; display:inline; font-size:400%; color: rgb(188, 44, 255);">League of Legends Chmaipon</h1>
+    <h3 style="float:right; display:inline; color: rgb(68, 122, 169);">League of legends</h3>
+    <div>
+    <h1>Gwen</h1>
+    <aside style="margin: 15px; float: left;"><img width="300px"
+        src="https://cdn-store.leagueoflegends.co.kr/images/v2/champion-tiles/887000.jpg"/>
+    </aside>
+    <p>A former doll transformed and brought to life by magic, Gwen wields the very tools that once created her. 
+        She carries the weight of her maker's love with every step, taking nothing for granted. 
+        At her command is the Hallowed Mist, an ancient and protective magic that has blessed Gwen's scissors, 
+        needles, and sewing thread. So much is new to her, but Gwen remains joyfully determined to fight for the good that survives in a broken world.
+        She's a skirmisher. She likes extended fights and loves dealing with tanks. When fed, her damage output is like a burst mage. She can build mage and tank items.
+        Basically, she's a scalling champ that likes extended fights and loves dealing with tanks, since she has true damage on her Q and percent max health magic damage on her passive, which applies on her Q and R.
+        What you will usually do is stack Q till Q4 and use it to poke or to all in in case you have ult or you see the opportunity to secure the kill.
+        Her Q is a stacking ability that deals more damage with the more stacks you have. Enemies in the center are hit with 50% true damage, so positioning is key here.
+        Her E is a single dash that can be used as an engage, a disengage, a auto attack reset, a wall jumper and/or auto attack damage buff. It had a long cooldown, but it always cuts it in half on the first hit you deal with it active, so be sure to always hit something if you use E.
+        Her W is her only defensive tool. It makes you immune to any damage or CC that comes from outside the mist, and even if the enemy is inside it, you get hibrid resistences based on your AP. However, it has the biggest cooldown of her kit, except maybe for her ult, and it's the most important tool she has against ranged and hard CC, so if you use it poorly, it may really cost your life.
+        Her R is a three cast ability. Each cast she launches needles forward. The first needle applies a huge slow on the first target, the next two casts only slow for a small amount. This is the only CC in Gwen's kit, and it's just a slow, so have in mind that you might need peeling. Her ult also does massive damage, since it procs her passive.
+        Her P is basically the anti tank part of her. It applies percent max health magic damage, which scales qith your AP, to targets you damage (With Q and R). This is the central part of Gwen's kit and what ties it all together to make her a massive damage dealer.
+    </p>
+    </div>
+
+    <div>
+    <h1>Abilities</h1>
+    <hr>
+    <p>Thousand Cuts</p>
+    <hr>
+    <p>Snip Snip!</p>
+    <hr>
+    <p>Hallowed Mist</p>
+    <hr>
+    <p>Skip 'n Slash</p>
+    <hr>
+    <p>Needlework</p>
+    <hr>
+    
+    </div>
+    </div>
+</body>
+</html>
