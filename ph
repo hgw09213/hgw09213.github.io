@@ -1,3 +1,4 @@
+homework code))
 <?php
 $n = $_GET["num"];
 for($i=0; $i<$n; $i++) {
@@ -14,6 +15,7 @@ for($i=0; $i<$n; $i++) {
 
 ///////////
 
+homework code))
 <!DOCTYPE html>
 <html>
 <head><meta charset="UTF-8"></head>
@@ -27,7 +29,9 @@ num을 입력하세요 : <input type="number" name="num"><br>
 
 </html>
 
-시험
+/////////////
+
+시험 code))
 <?php
 function foo(&$str) {
    $str .= "world...";
@@ -37,7 +41,8 @@ $str = "Hello! ";
 echo("$str<br>");
 foo($str);
 echo("$str<br>");
-//////
+
+/////////////////////
 
 function swap(&$a, &$b) {
    $temp = $b;
@@ -56,3 +61,31 @@ ampersand를 붙이면 변수의 주소를 통해 값을 바꾼다 function안�
 있는 local 변수는  global변수에 영향을 주지 못한다. 만약 ampersand를 안붙인다면 주소가 아닌 값만 전달하기 때문에 global 변수에 아무런
 영향도 끼칠 수 없다.
 
+//////////////////////////////////
+
+homework code))
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+
+<form method="GET" action="formcgi.php">
+width : <input type="text" name="width"><br>
+height : <input type="text" name="height"><br>
+
+<input type="submit" value="ok">
+</form>
+ 
+</body>
+
+</html>
+
+
+
+
+<?php
+$width = $_Get["width"];
+$height = $_Get["height"];
+$area = $width * $height / 2;
+echo("width : $width height : $height area = $area");
+?>
