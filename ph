@@ -26,3 +26,14 @@ num을 입력하세요 : <input type="number" name="num"><br>
 </body>
 
 </html>
+
+시험
+<?php
+function foo(&$str) {
+   $str .= "world...";
+}
+
+$str = "Hello! ";
+echo("$str<br>");
+foo($str);
+echo("$str<br>");
