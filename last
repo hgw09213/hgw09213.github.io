@@ -26,3 +26,6 @@ document.getElementById("demo").innerHTML = txt;
 
 </body>
 </html>
+
+////
+set과 array의 차이점은 set은 중복 불가 array는 가
