@@ -1,0 +1,234 @@
+<?php
+$link = mysqli_connect("localhost", 'root', '','park');
+?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>park</title>
+    <style>
+        .input {
+            width: 850px;
+            margin: 0 auto;
+        }
+        h1 { text-align: center; }
+        th, td { text-align: center; }
+        table {
+            width: 850px;
+            border: 1px solid #000;
+            margin: 0 auto;
+        }
+        td, th {
+            border: 1px solid #ccc;
+        }
+        a { text-decoration: none; }
+        
+    </style>
+</head>
+<body>
+    <div class="input">
+        <div>
+        <form action="park.php" method="POST">
+            <div>
+            고객성명 <input type="text" name="name"/>
+            <input style="float: right;" type="submit" name="sum" value="합계"/> 
+            <input style="float: right; margin-right: 5px;" type="submit" name="delete" value="삭제"/>
+            </div>    
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>구분</th>
+                        <th colspan="2">어린이</th>
+                        <th colspan="2">어른</th>
+                        <th>비고</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>입장권</td>
+                        <td>7,000</td>
+                        <td><select name="echd">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>10,000</td>
+                        <td><select name="eadt">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>입장</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>BIG3</td>
+                        <td>12,000</td>
+                        <td><select name="bchd">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>18,000</td>
+                        <td><select name="badt">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>입장+놀이3종</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>자유이용권</td>
+                        <td>21,000</td>
+                        <td><select name="fchd">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>28,000</td>
+                        <td><select name="fadt">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>입장+놀이자유</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>연간이용권</td>
+                        <td>70,000</td>
+                        <td><select name="ychd">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>90,000</td>
+                        <td><select name="yadt">
+                            <option value="0" disabled selected>선택</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select></td>
+                        <td>입장+놀이자유</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <br>
+       </form>
+
+       <table>
+       <?php 
+       date_default_timezone_set('Asia/Seoul');
+       $a = 0;
+       $total = 0; // 값 계산
+       $duplicate = FALSE; // 이름 중복 체크 
+
+       $cost = [ $_POST['echd'] ?? 0, $_POST['eadt'] ?? 0, $_POST['bchd'] ?? 0, $_POST['badt'] ?? 0,
+                $_POST['fchd'] ?? 0, $_POST['fadt'] ?? 0, $_POST['ychd'] ?? 0, $_POST['yadt'] ?? 0 ];
+
+       $check = FALSE; // 값 들어왔는지 확인 
+       foreach ($cost as $c){
+            if ($c > 0) {
+                $check = TRUE;
+                }
+            }
+                
+       if (date('A') == 'AM'){ $a = "오전"; }
+       else { $a = "오후"; }
+
+       if (isset($_POST['name']) && strlen($_POST['name']) > 0 ) {
+        if (isset($_POST['sum']) && $_POST['sum'] == "합계" && $check) {
+            $total = 7000 * $cost[0] + 10000 * $cost[1] + 12000 * $cost[2] + 18000 * $cost[3] + 
+                      21000 * $cost[4] + 28000 * $cost[5] + 70000 * $cost[6] + 90000 * $cost[7];
+            $sql = "INSERT INTO `adb` ".
+            "(`name`, `ec`, `ea`, `bc`, `ba`, `fc`, `fa`, `yc`, `ya`, `sum`)".
+            "VALUES ('{$_POST['name']}', '$cost[0]', '$cost[1]', '$cost[2]', '$cost[3]', 
+            '$cost[4]', '$cost[5]', '$cost[6]', '$cost[7]', '$total')";
+            if(!mysqli_query($link, $sql)) {
+                $duplicate = TRUE;
+            }
+        }
+        else if (isset($_POST['delete']) && $_POST['delete'] == "삭제" ) {
+            $sql = "DELETE FROM  `adb` ".
+            "WHERE name = '{$_POST['name']}'";
+            mysqli_query($link, $sql);
+        }
+       }
+
+       ?>
+       <h1>고객명단</h1>
+       <thead>
+        <tr>
+            <th>이름</th>
+            <th colspan="4">어린이</th>
+            <th colspan="4">어른</th>
+            <th>합계</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>입장권</td>
+            <td>BIG3</td>
+            <td>자유이용권</td>
+            <td>연간이용권</td>
+            <td>입장권</td>
+            <td>BIG3</td>
+            <td>자유이용권</td>
+            <td>연간이용권</td>
+            <td></td>
+        </tr>
+       </thead>
+       <tbody>
+        <?php
+        $query = "SELECT `name`, `ec`, `bc`, `fc`, `yc`, `ea`, `ba`, `fa`, `ya`, `sum` FROM adb";
+        $result = mysqli_query($link, $query);
+
+        while ($line = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+            echo "<tr>";
+            foreach ($line as $col_value) {
+                echo "<td>$col_value</td>";
+            }
+            echo "</tr>";
+        }
+        
+        ?>
+       </tbody>
+       </table>
+
+       <?php 
+       if (isset($_POST['name']) && strlen($_POST['name']) > 0 ) {
+        if (isset($_POST['sum']) && $_POST['sum'] == "합계") {
+            if (!$duplicate && $check) { // 이름 중복 체크 & 값 들어왔는지 확인인
+            echo "<br>".date("Y년 n월 j일 $a g:i분")."<br>";
+            echo $_POST['name']." 고객님 감사합니다.<br>";
+            
+            if ($cost[0] > 0){ echo "어린이 입장권 $cost[0]매<br>"; }
+            if ($cost[1] > 0){ echo "어른 입장권 $cost[1]매<br>"; }
+            if ($cost[2] > 0){ echo "어린이 BIG3 $cost[2]매<br>"; }
+            if ($cost[3] > 0){ echo "어른 BIG3 $cost[3]매<br>"; }
+            if ($cost[4] > 0){ echo "어린이 자유이용권 $cost[4]매<br>"; }
+            if ($cost[5] > 0){ echo "어른 자유이용권 $cost[5]매<br>"; }
+            if ($cost[6] > 0){ echo "어린이 연간이용권 $cost[6]매<br>"; }
+            if ($cost[7] > 0){ echo "어른 연간이용권 $cost[7]매<br>"; }
+            if ($total > 0) { echo "합계 ".$total."원 입니다."; }
+            }
+            else if ($duplicate) { echo "이미 등록된 이름입니다."; }
+            else if (!$check) { echo "표를 선택해주세요."; }
+        }
+       }
+       mysqli_free_result($result);
+       mysqli_close($link);
+       ?>
+    </div>
+</body>
+</html>
