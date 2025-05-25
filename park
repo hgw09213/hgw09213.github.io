@@ -1,3 +1,4 @@
+/php code
 <?php
 $link = mysqli_connect("localhost", 'root', '','park');
 ?>
@@ -232,3 +233,20 @@ $link = mysqli_connect("localhost", 'root', '','park');
     </div>
 </body>
 </html>
+
+/sql code
+CREATE DATABASE park;
+USE park;
+
+CREATE TABLE adb (
+    name CHAR(32) CHARACTER SET utf8 NOT NULL PRIMARY KEY,
+    ec   INT(2),
+    ea   INT(2),
+    bc   INT(2),
+    ba   INT(2),
+    fc   INT(2),
+    fa   INT(2),
+    yc   INT(2),
+    ya   INT(2),
+    sum  INT(8)
+);
