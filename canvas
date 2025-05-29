@@ -1,0 +1,84 @@
+// line1
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.lineWidth = 2;
+ctx.strokeStyle = "blue";
+for (x = 0; x <= 200; x+=10) {
+  ctx.moveTo(x,0);
+  ctx.lineTo(x,200);
+}
+for (x = 0; x < 200; x+=10) {
+  ctx.moveTo(0,x);
+  ctx.lineTo(200,x);
+}
+ctx.stroke();
+</script>
+
+</body>
+</html>
+
+// line2
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.lineWidth = 2;
+for (x = 0, y = 0; x <= 200; y+= 10, x+=10) {
+  ctx.beginPath();
+  ctx.strokeStyle = "blue";
+  ctx.moveTo(x,0);
+  ctx.lineTo(x,y);
+  ctx.stroke();
+}
+for (x = 0, y = 0; y <= 200; y+=10, x+=10) {
+  ctx.beginPath();
+  ctx.strokeStyle = "red";
+  ctx.moveTo(0,y);
+  ctx.lineTo(x,y);
+  ctx.stroke();
+}
+</script>
+
+</body>
+</html>
+
+// many circle
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+for (x = 100, y = 0; x >= 0; x -= 10){
+ctx.beginPath();
+ctx.arc(100,100,x,0,Math.PI*2);
+ctx.stroke();
+ctx.lineWidth = y++;
+
+}
+
+</script> 
+
+</body>
+</html>
+
+
+// line color and width site: https://www.w3schools.com/graphics/canvas_lines.asp
