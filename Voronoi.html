@@ -2,129 +2,98 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Voronoi</title>
+    <title>Bouncing Balls</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="paper-full.js"></script>
-    <script type="text/javascript" src="http://paperjs.org/assets/js/rhill-voronoi-core.js"></script>
     <script type="text/paperscript" canvas="canvas">
-        var voronoi = new Voronoi();
-        var sites = generateBeeHivePoints(view.size / 200, true);
-        var bbox, diagram;
-        var oldSize = view.size;
-        var spotColor = new Color('red');
-        var mousePos = view.center;
-        var selected = false;
-
-        onResize();
-
-        function onMouseDown(event) {
-            sites.push(event.point);
-            renderDiagram();
-        }
-
-        function onMouseMove(event) {
-            mousePos = event.point;
-            if (event.count == 0)
-                sites.push(event.point);
-            sites[sites.length - 1] = event.point;
-            renderDiagram();
-        }
-
-        function renderDiagram() {
-            project.activeLayer.removeChildren();
-            var diagram = voronoi.compute(sites, bbox);
-            if (diagram) {
-                for (var i = 0, l = sites.length; i < l; i++) {
-                    var cell = diagram.cells[sites[i].voronoiId];
-                    if (cell) {
-                        var halfedges = cell.halfedges,
-                            length = halfedges.length;
-                        if (length > 2) {
-                            var points = [];
-                            for (var j = 0; j < length; j++) {
-                                v = halfedges[j].getEndpoint();
-                                points.push(new Point(v));
-                            }
-                            createPath(points, sites[i]);
-                        }
-                    }
-                }
-            }
-        }
-
-        function removeSmallBits(path) {
-            var averageLength = path.length / path.segments.length;
-            var min = path.length / 50;
-            for (var i = path.segments.length - 1; i >= 0; i--) {
-                var segment = path.segments[i];
-                var cur = segment.point;
-                var nextSegment = segment.next;
-                var next = nextSegment.point + nextSegment.handleIn;
-                if (cur.getDistance(next) < min) {
-                    segment.remove();
-                }
-            }
-        }
-
-        function generateBeeHivePoints(size, loose) {
-            var points = [];
-            var col = view.size / size;
-            for (var i = -1; i < size.width + 1; i++) {
-                for (var j = -1; j < size.height + 1; j++) {
-                    var point = new Point(i, j) / new Point(size) * view.size + col / 2;
-                    if (j % 2)
-                        point += new Point(col.width / 2, 0);
-                    if (loose)
-                        point += (col / 4) * Point.random() - col / 4;
-                    points.push(point);
-                }
-            }
-            return points;
-        }
-        function createPath(points, center) {
-            var path = new Path();
-            if (!selected) {
-                path.fillColor = spotColor;
+        var Ball = function(point, vector) {
+            if (!vector || vector.isZero()) {
+                this.vector = Point.random() * 5;
             } else {
-                path.fullySelected = selected;
+                this.vector = vector * 2;
             }
-            path.closed = true;
+            this.point = point;
+            this.dampen = 0.4;
+            this.gravity = 3;
+            this.bounce = -0.6;
 
-            for (var i = 0, l = points.length; i < l; i++) {
-                var point = points[i];
-                var next = points[(i + 1) == points.length ? 0 : i + 1];
-                var vector = (next - point) / 2;
-                path.add({
-                    point: point + vector,
-                    handleIn: -vector,
-                    handleOut: vector
-                });
-            }
-            path.scale(0.95);
-            removeSmallBits(path);
-            return path;
-        }
-
-        function onResize() {
-            var margin = 20;
-            bbox = {
-                xl: margin,
-                xr: view.bounds.width - margin,
-                yt: margin,
-                yb: view.bounds.height - margin
+            var color = {
+                hue: Math.random() * 360,
+                saturation: 1,
+                brightness: 1
             };
-            for (var i = 0, l = sites.length; i < l; i++) {
-                sites[i] = sites[i] * view.size / oldSize;
-            }
-            oldSize = view.size;
-            renderDiagram();
+            var gradient = new Gradient([color, 'black'], true);
+
+            var radius = this.radius = 50 * Math.random() + 30;
+            // Wrap CompoundPath in a Group, since CompoundPaths directly
+            // applies the transformations to the content, just like Path.
+            var ball = new CompoundPath({
+                children: [
+                    new Path.Circle({
+                        radius: radius
+                    }),
+                    new Path.Circle({
+                        center: radius / 8,
+                        radius: radius / 3
+                    })
+                ],
+                fillColor: new Color(gradient, 0, radius, radius / 8),
+            });
+
+            this.item = new Group({
+                children: [ball],
+                applyMatrix: false,
+                position: this.point
+            });
         }
 
-        function onKeyDown(event) {
-            if (event.key == 'space') {
-                selected = !selected;
-                renderDiagram();
+        Ball.prototype.iterate = function() {
+            var size = view.size;
+            this.vector.y += this.gravity;
+            this.vector.x *= 0.99;
+            var pre = this.point + this.vector;
+            if (pre.x < this.radius || pre.x > size.width - this.radius)
+                this.vector.x *= -this.dampen;
+            if (pre.y < this.radius || pre.y > size.height - this.radius) {
+                if (Math.abs(this.vector.x) < 3)
+                    this.vector = Point.random() * [150, 100] + [-75, 20];
+                this.vector.y *= this.bounce;
             }
+
+            var max = Point.max(this.radius, this.point + this.vector);
+            this.item.position = this.point = Point.min(max, size - this.radius);
+            this.item.rotate(this.vector.x);
+        };
+
+
+        var balls = [];
+        for (var i = 0; i < 10; i++) {
+            var position = Point.random() * view.size,
+                vector = (Point.random() - [0.5, 0]) * [50, 100],
+                ball = new Ball(position, vector);
+            balls.push(ball);
+        }
+
+        var textItem = new PointText({
+            point: [20, 30],
+            fillColor: 'black',
+            content: 'Click, drag and release to add balls.'
+        });
+
+        var lastDelta;
+        function onMouseDrag(event) {
+            lastDelta = event.delta;
+        }
+
+        function onMouseUp(event) {
+            var ball = new Ball(event.point, lastDelta);
+            balls.push(ball);
+            lastDelta = null;
+        }
+
+        function onFrame() {
+            for (var i = 0, l = balls.length; i < l; i++)
+                balls[i].iterate();
         }
     </script>
 </head>
