@@ -27,5 +27,188 @@ document.getElementById("demo").innerHTML = txt;
 </body>
 </html>
 
-////
-set과 array의 차이점은 set은 중복 불가 array는 가
+// set과 array의 차이점은 set은 중복 불가 array는 가능
+
+// MySQL, Javascript (캠퍼스, 그래픽은 안나옴)
+MySQL, Javascript quiz중 10문제
+
+// 시험 문제 1
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var fLen = fruits.length; // length는 4
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("demo").innerHTML = text;
+alert(text);
+</script>
+
+</body>
+</html>
+
+
+// 시험 문제 2
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var fLen = fruits.length; // length는 4
+
+text = "<ul>";
+fruits.forEach(myFunction); // forEach가 for문을 대체함 위에 문장이랑 연관 지어 보
+text += "</ul>";
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+}
+
+
+document.getElementById("demo").innerHTML = text;
+alert(text);
+</script>
+
+</body>
+</html>
+
+// 시험 문제 3
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+
+const person = {fname:"John", lname:"Doe", age:25};
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+
+document.getElementById("demo").innerHTML = text;
+alert(text);
+</script>
+
+</body>
+</html>
+
+// 시험 문제 4
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+let txt = "";
+for (let x in numbers) {
+  txt += numbers[x] + ", ";
+}
+
+
+document.getElementById("demo").innerHTML = txt;
+alert(text);
+</script>
+
+</body>
+</html>
+
+// 시험 문제 5
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Mini"];
+let text = "";
+for (let x of cars) {
+  text += x;
+}
+
+document.getElementById("demo").innerHTML = text;
+alert(text);
+</script>
+
+</body>
+</html>
+
+// 시험 문제 6
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = 'x';
+alert(typeof x);
+
+타입 알려주는 코드
+
+// 시험 문제 7
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = 'x';
+alert(Array.isArray(x));  // returns object
+
+Array.isArray(fruits);   	// returns true
+function isArray(x) {
+  return x.constructor.toString().indexOf("Array") > -1;
+}
+
+
+document.getElementById("demo").innerHTML = text;
+alert(text);
+</script>
+
+</body>
+</html>
+
+// 문제 8
+
+
