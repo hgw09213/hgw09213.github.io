@@ -1,0 +1,119 @@
+// pi
+public class HelloWorld {
+	public static void main(String[] args) {
+		int i, sign = 1;
+		float sum = 0;
+		for (i = 0; i < 1000000; i++) {
+			sum += sign * 4. / (2 * i + 1);
+			System.out.printf("%2d %7.4f %16.14f \n", i, sign * 4. / (2 * i + 1), sum);
+			sign *= -1;
+		}
+	}
+}
+
+// pi2
+public class HelloWorld {
+	public static void main(String[] args) {
+		int i;
+		double sum = 0;
+		for (i = 0; i < 10000; i++) {
+			sum += Math.sqrt(12) * (Math.pow(-3, -i) / (2 * i + 1));
+			System.out.printf("%2d %16.14f %16.14f \n", i, Math.sqrt(12) * (Math.pow(-3, -i) / (2 * i + 1)), sum);
+
+		}
+	}
+}
+
+// pi 최종
+public class HelloWorld {
+	public static void main(String[] args) {
+		int i;
+		double sum = 0;
+		for (i = 0; i < 100; i++) {
+			sum += Math.sqrt(12) * (Math.pow(-3, -i) / (2 * i + 1));
+			System.out.printf("%20.16f\n", sum);
+		}
+	}
+}
+
+// sorting, ary, rand
+public class HelloWorld {
+	public static void main(String[] args) {
+		int data[] = new int[20];
+		for (int i = 0; i < 20; i++)
+			data[i] = (int) (Math.random() * 100);
+		for (int i = 0; i < 20; i++)
+			System.out.printf("%2d ", data[i]);
+	}
+}
+
+// rand float
+public class HelloWorld {
+	public static void main(String[] args) {
+		float data[] = new float[20];
+		for (int i = 0; i < 20; i++)
+			data[i] = (float) (Math.random()); // or * 100
+		for (int i = 0; i < 20; i++)
+			System.out.printf("%5.3f ", data[i]);
+	}
+}
+
+// double demension
+public class HelloWorld {
+	public static void main(String[] args) {
+		float data[][] = new float[10][5];
+		for (int i = 0; i < 10; i++)
+			for (int j = 0; j < 5; j++)
+				data[i][j] = (float) (Math.random());
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 5; j++)
+				System.out.printf("%5.3f ", data[i][j]);
+			System.out.println();
+		}
+	}
+}
+
+// hw8
+public class HelloWorld {
+	public static void main(String[] args) {
+		int data[][] = new int[30][5];
+		float sum = 0;
+		for (int i = 0; i < 30; i++) {
+			sum = 0;
+			for (int j = 0; j < 5; j++) {
+				data[i][j] = (int) (Math.random() * 100);
+				sum += data[i][j];
+			}
+			data[i][4] = (int) sum;
+		}
+		for (int i = 0; i < 30; i++) {
+			System.out.printf("%3d ", i);
+			for (int j = 0; j < 5; j++) {
+				System.out.printf("%3d ", data[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+
+// sort 미완성
+public class HelloWorld {
+	public static void main(String[] args) {
+		int data[] = new int[20];
+		for (int i = 0; i < 20; i++) {
+			data[i] = (int) (Math.random() * 100);
+		}
+		for (int i = 0; i < 20; i++)
+			System.out.printf("%2d ", data[i]);
+		System.out.println();
+		for (int i = 0; i < 19; i++) {
+			if (data[i + 1] < data[i]) {
+				int t = data[i + 1];
+				data[i + 1] = data[i];
+				data[i] = t;
+			}
+		}
+		for (int i = 0; i < 20; i++)
+			System.out.printf("%2d ", data[i]);
+	}
+}
