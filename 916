@@ -55,7 +55,7 @@ public class H {
 
 import java.util.Scanner;
 
-public class H {
+public class Calculator {
 	public static void main(String[] args) {
 		while (true) {
 			double result = 0;
@@ -92,59 +92,114 @@ public class H {
 
 			if (arrOfStr.length > 4 && arrOfStr[3].equals("#")) {
 				if (arrOfStr[1] == "+") {
-					result = (double) Integer.parseInt(arrOfStr[2]) * Integer.parseInt(arrOfStr[4]) + Integer.parseInt(arrOfStr[0]);
+					result = ((double) Integer.parseInt(arrOfStr[2]) * Integer.parseInt(arrOfStr[4]))
+							+ Integer.parseInt(arrOfStr[0]);
 				}
-				else if (arrOfStr[1] == "-") {
-					result = (double) Integer.parseInt(arrOfStr[2]) * Integer.parseInt(arrOfStr[4]) - Integer.parseInt(arrOfStr[0]);
-				}
-				else 
-					result = result * Integer.parseInt(arrOfStr[4]); // 문제점
-			
 
-				else if (arrOfStr[3].equals("/")) {
-					result = result / Integer.parseInt(arrOfStr[4]);
+				else if (arrOfStr[1] == "-") {
+					result = (double) Integer.parseInt(arrOfStr[2]) * Integer.parseInt(arrOfStr[4])
+							- Integer.parseInt(arrOfStr[0]);
 				}
+
+				else
+					result = result * Integer.parseInt(arrOfStr[4]);
+
+			}
+
+			else if (arrOfStr.length > 4 && arrOfStr[3].equals("/")) {
+				if (arrOfStr[1] == "+") {
+					result = (double) Integer.parseInt(arrOfStr[2]) / Integer.parseInt(arrOfStr[4])
+							+ Integer.parseInt(arrOfStr[0]);
+				}
+
+				else if (arrOfStr[1] == "-") {
+					result = (double) Integer.parseInt(arrOfStr[2]) / Integer.parseInt(arrOfStr[4])
+							- Integer.parseInt(arrOfStr[0]);
+				}
+
+				else
+					result = result / Integer.parseInt(arrOfStr[4]);
 			}
 
 			System.out.println(" = " + result);
-		
+
 		}
 	}
 }
 
-// class 1 
+// hw13 최종
 
-public class Second {
+import java.util.Scanner;
+
+public class Calculator {
 	public static void main(String[] args) {
-		Account myObj = new Account("honggyeongwoo", "dongseo", "01049302559");
-		Account myObj1 = new Account("parksoon", "computer", "01012345678");
-		System.out.println(myObj.name);
-		System.out.println(myObj.address);
-		System.out.println(myObj.balance);
-	}
-}
+		while (true) {
+			double result = 0;
+			Scanner scanner = new Scanner(System.in);
+			String inputString = scanner.nextLine();
+			System.out.print(inputString);
+			String[] arrOfStr = inputString.split(" ");
 
-// class 2 
+			if (arrOfStr[1].equals("+")) {
+				result = (double) Integer.parseInt(arrOfStr[0]) + Integer.parseInt(arrOfStr[2]);
+			}
 
-public class Account {
-	String name;
-	String address;
-	String phone;
-	int balance;
+			else if (arrOfStr[1].equals("-")) {
+				result = (double) Integer.parseInt(arrOfStr[0]) - Integer.parseInt(arrOfStr[2]);
+			}
 
-	Account(String _name, String _address, String _phone) {
-		name = _name;
-		address = _address;
-		phone = _phone;
-		balance = 0;
-	}
-	
-	public int deposit() {
-		
-	}
-	
-	public int withdraw() {
-		
+			else if (arrOfStr[1].equals("#")) {
+				result = (double) Integer.parseInt(arrOfStr[0]) * Integer.parseInt(arrOfStr[2]);
+			}
+
+			else if (arrOfStr[1].equals("/")) {
+				result = (double) Integer.parseInt(arrOfStr[0]) / Integer.parseInt(arrOfStr[2]);
+			}
+
+			if (arrOfStr.length > 4) {
+				if (arrOfStr[3].equals("+")) {
+					result = result + Integer.parseInt(arrOfStr[4]);
+				}
+
+				else if (arrOfStr[3].equals("-")) {
+					result = result - Integer.parseInt(arrOfStr[4]);
+				}
+
+				else if (arrOfStr[3].equals("#")) {
+					if (arrOfStr[1].equals("+")) {
+						result = ((double) Integer.parseInt(arrOfStr[2]) * Integer.parseInt(arrOfStr[4]))
+								+ Integer.parseInt(arrOfStr[0]);
+					}
+
+					else if (arrOfStr[1].equals("-")) {
+						result = (double) Integer.parseInt(arrOfStr[2]) * Integer.parseInt(arrOfStr[4])
+								- Integer.parseInt(arrOfStr[0]);
+					}
+
+					else
+						result = result * Integer.parseInt(arrOfStr[4]);
+
+				}
+
+				else if (arrOfStr[3].equals("/")) {
+					if (arrOfStr[1].equals("+")) {
+						result = (double) Integer.parseInt(arrOfStr[2]) / Integer.parseInt(arrOfStr[4])
+								+ Integer.parseInt(arrOfStr[0]);
+					}
+
+					else if (arrOfStr[1].equals("-")) {
+						result = (double) Integer.parseInt(arrOfStr[2]) / Integer.parseInt(arrOfStr[4])
+								- Integer.parseInt(arrOfStr[0]);
+					}
+
+					else
+						result = result / Integer.parseInt(arrOfStr[4]);
+				}
+			}
+
+			System.out.printf(" = %.2f\n", result);
+
+		}
 	}
 }
 
