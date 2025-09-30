@@ -1,0 +1,104 @@
+public abstract void study(); // abstract method는 함수 원형과 같이 빈 함수를 만듦 abstract : 추상적
+
+class Student extends Main // extends는 상속을 위한 키워드, 상속 시 부모 클래스의 코드를 전부 사용 가능. 상속은 한 곳만 가능
+
+오버라이딩은 부모 클래스의 코드를 상속받은 클래스가 재정의 할 때를 의미
+
+	public void study() {
+		System.out.println("Studying all day long - in Student");
+		super.study();
+	}
+super은 부모의 코드를 불러옴
+
+Polymorphism 다양성, 다형성 예시)
+class Animal {
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
+
+class Pig extends Animal {
+  public void animalSound() { // 서브클래스가 재정의 = 오버라이
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+class Dog extends Animal { // 자식의 자식
+  public void animalSound() {
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Animal myAnimal = new Animal();  // Create a Animal object // 다형성의 예시 자식도 전부 Animal로 정의 
+    Animal myPig = new Pig();  // Create a Pig object
+    Animal myDog = new Dog();  // Create a Dog object
+    myAnimal.animalSound();
+    myPig.animalSound();
+    myDog.animalSound();
+  }
+}
+
+일반적인 상속은
+class Main {
+	public static void main(String[] args) {
+		Animal myAnimal = new Animal(); // Create a Animal object
+		Pig myPig = new Pig(); // Create a Pig object
+		Dog myDog = new Dog(); // Create a Dog object
+		myAnimal.animalSound();
+		myPig.animalSound();
+		myDog.animalSound();
+	}
+}
+
+Polymorphism 활용
+class Main {
+	public static void main(String[] args) {
+		Animal[] myAnimal = new Animal[3]; // 같은 이름의 배열 생성이 가능해짐
+		myAnimal[0] = new Animal(); // Create a Pig object
+		myAnimal[1] = new Dog();
+		myAnimal[2] = new Pig();
+		myAnimal[0].animalSound();
+		myAnimal[1].animalSound();
+		myAnimal[2].animalSound();
+	}
+}
+
+Interface는 implements 키워드를 이용해서 복수개 상속 가능(extends는 한개만 가능), 빈 메소드를 여러개 생성 가능, 주로 GUI에서 사용 
+interface Animal {
+  public void animalSound(); // interface method (does not have a body)
+  public void sleep(); // interface method (does not have a body)
+}
+
+// Pig "implements" the Animal interface
+class Pig implements Animal {
+  public void animalSound() {
+    // The body of animalSound() is provided here
+    System.out.println("The pig says: wee wee");
+  }
+  public void sleep() {
+    // The body of sleep() is provided here
+    System.out.println("Zzz");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Pig myPig = new Pig();  // Create a Pig object
+    myPig.animalSound();
+    myPig.sleep();
+  }
+}
+
+// 중요 
+https://www.w3schools.com/java/java_modifiers.asp 
+https://www.w3schools.com/java/java_encapsulation.asp 
+https://www.w3schools.com/java/java_packages.asp 
+
+https://www.w3schools.com/java/java_inheritance.asp 
+https://www.w3schools.com/java/java_polymorphism.asp 
+https://www.w3schools.com/java/java_super.asp 
+https://www.w3schools.com/java/java_inner_classes.asp 
+https://www.w3schools.com/java/java_abstract.asp 
+https://www.w3schools.com/java/java_interface.asp
