@@ -1,0 +1,123 @@
+constructor // 생성자: 클래스와 메서드 이름이 동일  
+this // 클래스를 가리킴, 전역, 지역변수와 유사
+throws // 에러를 메시지로 대체 
+class Account {
+    String accountNo;
+    String ownerName;
+    int balance;
+    Account(String accountNo, String ownerName, int balance) {
+    	this.accountNo = accountNo;
+    	this.ownerName = ownerName;
+    	this.balance = balance;
+    }
+    void deposit(int amount) {
+        balance += amount;
+    }
+   int withdraw(int amount) throws Exception {
+        if (balance < amount)
+        	throw new Exception("잔액이 부족합니다.");
+        balance -= amount;
+        return amount;
+    }
+}           
+
+extends // 상속: 부모의 변수 및 메서드를 상속 받아서 이용 가능
+super // 조상, 부모를 가리킴. 부모가 가진 값을 가져옴. this는 class내에서의 값
+class CheckingAccount extends Account {
+    String cardNo;                                   	
+    CheckingAccount(String accountNo, String ownerName, int balance, String cardNo) {  // 생성자
+        super(accountNo, ownerName, balance);   
+        this.cardNo = cardNo;
+    }
+    int pay(String cardNo, int amount) throws Exception {
+        if (!cardNo.equals(this.cardNo) || (balance < amount))
+        	throw new Exception("지불이 불가능합니다.");
+        return withdraw(amount);
+    }
+}
+
+final // 대입한 값 변경 불가, const와 유사
+overriding // 부모의 메서드를 상속 받은 자식이 수정하는 것
+overloading // 메소드 이름은 동일하지만 argument(인자, 매개변수)가 다른 것
+final method // 메소드 수정 불가. 즉, 오버라이딩 불가
+final class // extends(상속) 불가
+void // 리턴값이 없는 것
+private // 클래스 내에서만 접근 가능
+none // 클래스 및 패키지에서만 접근 가능
+protected // 클래스 및 패키지, 상속받은 자식까지 접근 가능
+public // 모두 접근 가능
+abstract // 이름만 있고 구현하지 않은 메소드, abstract class, abstract method
+polymorphism // 상속받은 부모 이름으로 자식의 객체를 생성해서 사용 가능
+interface // 클래스와 동일한 격의 키워드(둘 중 한개만 사용), implements를 사용하여 상속 여러개 가능
+
+// 시험 문제 원형
+import java.util.ArrayList;
+import java.util.Iterator;
+
+class InheritanceExample2 {
+	public static void main(String args[]) {
+		ArrayList<String> carlist = new ArrayList<String>();
+		carlist.add("Volvo");
+		carlist.add("BMW");
+		carlist.add("Ford");
+		carlist.add("Mazda");
+		// Get the iterator
+
+		System.out.println("standard for loop");
+		for (int i = 0; i < carlist.size(); i++) {
+			System.out.println(carlist.get(i));
+		}
+
+		System.out.println("iterator");
+		Iterator<String> it = carlist.iterator();
+		while (it.hasNext()) {
+			String str = it.next();
+			System.out.println(str);
+		}
+
+		System.out.println("enhanced for loop");
+		for (String str : carlist) {
+			System.out.println(str);
+		}
+	}
+}
+
+// 시험 문제 예제 (위에 원형이 답)
+import java.util.ArrayList;
+import java.util.Iterator;
+
+class InheritanceExample2 {
+	public static void main(String args[]) {
+		ArrayList<String> carlist = new ArrayList<String>();
+		carlist.add("Volvo");
+		carlist.add("BMW");
+		carlist.add("Ford");
+		carlist.add("Mazda");
+		// Get the iterator
+
+		System.out.println("standard for loop");
+		for (int i = 0; i < carlist.size(); i++) {
+			System.out.println(carlist.get(i));
+		}
+
+		System.out.println("iterator");
+		Iterator<String> it = carlist.iterator();
+		while () {
+
+		}
+
+		System.out.println("enhanced for loop");
+		for () {
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
