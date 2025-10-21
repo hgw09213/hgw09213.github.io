@@ -1,0 +1,212 @@
+1. class
+class로 객체지향 시작, class명의 첫 글자는 항상 대문자, class 명과 같은 매서드는 생성자
+
+2. overriding
+부모의 메서드를 상속 받은 클래스가 수정
+
+3. this
+class Account {
+    String accountNo;
+    String ownerName;
+    int balance;
+    Account(String accountNo, String ownerName, int balance) {
+    	this.accountNo = accountNo;
+    	this.ownerName = ownerName;
+    	this.balance = balance;
+    }
+    void deposit(int amount) {
+        balance += amount;
+    }
+   int withdraw(int amount) throws Exception {
+        if (balance < amount)
+        	throw new Exception("잔액이 부족합니다.");
+        balance -= amount;
+        return amount;
+    }
+}             
+해당 코드에서 this는 메서드 내의 accountNo를 가리킴
+
+4. void
+리턴값 x
+
+5. final
+한 번 대입하고 수정 불가 (const와 유사)
+
+6. final method
+오버라이딩 불가
+
+7. extends
+상속
+
+8. super
+부모의 생성자를 가리킴
+
+9. final class
+상속 불가
+
+10. 시험에 나오는 코드
+class Account {
+    String accountNo;
+    String ownerName;
+    int balance;
+    Account(String accountNo, String ownerName, int balance) {
+    	this.accountNo = accountNo;
+    	this.ownerName = ownerName;
+    	this.balance = balance;
+    }
+    void deposit(int amount) {
+        balance += amount;
+    }
+   int withdraw(int amount) throws Exception {
+        if (balance < amount)
+        	throw new Exception("잔액이 부족합니다.");
+        balance -= amount;
+        return amount;
+    }
+}             
+
+class CheckingAccount extends Account {
+    String cardNo;                                   	
+    CheckingAccount(String accountNo, String ownerName, int balance, String cardNo) {  // 생성자
+        super(accountNo, ownerName, balance);   
+        this.cardNo = cardNo;
+    }
+    int pay(String cardNo, int amount) throws Exception {
+        if (!cardNo.equals(this.cardNo) || (balance < amount))
+        	throw new Exception("지불이 불가능합니다.");
+        return withdraw(amount);
+    }
+}
+
+class InheritanceExample2 {
+    public static void main(String args[]) {
+        CheckingAccount obj = new CheckingAccount("111-22-33333333", "홍길동", 0, "5555-6666-7777-8888");
+        obj.deposit(100000); 	
+        try {
+        	int paidAmount = obj.pay("5555-6666-7777-8888", 47000); 	
+        	System.out.println("지불액:" + paidAmount);
+        	System.out.println("잔액:" + obj.balance);
+        }
+        catch (Exception e) {  
+        	String msg = e.getMessage();
+        	System.out.println(msg);
+        }
+    }
+}
+
+class CreditLineAccount extends Account { 
+    int creditLine;                    	
+    CreditLineAccount(String accountNo, String ownerName, int balance, int creditLine) {
+        super(accountNo, ownerName, balance);
+        this.creditLine = creditLine;
+    }	
+    int withdraw(int amount) throws Exception {
+        if ((balance + creditLine) < amount)	
+        	throw new Exception("인출이 불가능합니다.");  
+        balance -= amount;
+        return amount;
+    }
+}
+
+
+11. abstract
+구현되지 않은 메서드 생성, 상속 받은 객체가 오버라이딩을 통해 완성, instance 불가
+
+12. polymophism
+class InheritanceExample7 {
+    public static void main(String args[]) {
+        Account obj1 = new Account("111-22-333333", "임꺽정", 10000); 
+        CheckingAccount obj2 = new CheckingAccount("444-55-666666", "홍길동", 20000, "5555-6666-7777-8888"); //
+        CreditLineAccount obj3 = new CreditLineAccount("777-88-999999", "김선달", 30000, 20000000); //
+        BonusPointAccount obj4 = new BonusPointAccount("000-00-000000", "김미영", 0, 0); // 부모가 같음
+        printAccountInfo(obj1);
+        printAccountInfo(obj2);
+        printAccountInfo(obj3);
+        printAccountInfo(obj4);
+    }
+    static void printAccountInfo(Account obj) {
+        System.out.println("계좌번호:" + obj.accountNo);
+        System.out.println("예금주 이름:" + obj.ownerName);
+        System.out.println("잔액:" + obj.balance);
+        System.out.println();
+    }
+}
+부모의 객체를 보낼 수 있음
+
+13. interface
+메소드 명만 정해져있고 구현이 안된 메소드를 모아둠 (abstract가 여러개)
+interface는 상속 여러개 가능(gui에서 사용), abstract는 한개만 가능
+
+14. implements
+interface 키워드를 통해 interface 상속
+
+// 6문제는 키워드들 설명 2문제는 public, protected, none, private 설명 & for loof
+
+15. ArrayList
+몇명이 들어올지 불분명할 때 사용
+ArrayList<String> cars = new ArrayList<String>();
+cars.add("Volvo");
+cars.add("BMW");
+cars.add("Ford");
+cars.add("Mazda");
+
+ArrayList for loop 기본
+System.out.println("standard for loop");       
+for(int i=0; i<cars.size(); i++) {
+  System.out.println(cars.get(i));
+}
+
+나머지 두 가지 방법
+System.out.println("iterator");   
+Iterator<String> it = cars.iterator();
+while (it.hasNext()) {
+  String str = it.next();
+  System.out.println(str);
+}
+
+System.out.println("enhanced for loop");       
+for (String str : cars) {
+  System.out.println(str);
+}
+
+// 시험에 안나옴 
+enum Season {
+    SPRING("봄"), SUMMER("여름"), FALL("가을"), WINTER("겨울") ;
+    final private String name;
+    Season(String name) {
+        this.name = name;
+    }
+    String value() {
+        return name;
+    }
+}
+
+class EnumExample3 {
+    public static void main(String args[]) {
+        printSeason(Season.SPRING);
+        printSeason(Season.SUMMER);
+        printSeason(Season.FALL);
+        printSeason(Season.WINTER);
+    }
+    static void printSeason(Season season) {
+        System.out.println(season.value());
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
