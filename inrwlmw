@@ -1,0 +1,1065 @@
+2025:11:28 21:01:35:545:   
+2025:11:28 21:01:35:547:   >>>Dumping deffered logs
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v2.0.50727
+2025:11:28 21:01:35:450:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v3.0
+2025:11:28 21:01:35:450:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v3.5
+2025:11:28 21:01:35:450:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v4\Client
+2025:11:28 21:01:35:450:   Found registry key for the expected .NET version.
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v4\Full
+2025:11:28 21:01:35:450:   Found registry key for the expected .NET version.
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v4.5\Client
+2025:11:28 21:01:35:450:   Found registry key for the expected .NET version.
+2025:11:28 21:01:35:450:   Looking for .NET version 4.5 or above
+2025:11:28 21:01:35:450:   Found version: 4.8.09032
+2025:11:28 21:01:35:450:   Checking .NET version...
+2025:11:28 21:01:35:450:   Expected version: v4.5\Full
+2025:11:28 21:01:35:450:   Found registry key for the expected .NET version.
+2025:11:28 21:01:35:450:   Looking for .NET version 4.5 or above
+2025:11:28 21:01:35:450:   Found version: 4.8.09032
+2025:11:28 21:01:35:450:   Loading saved properties
+2025:11:28 21:01:35:501:   Effective command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 21:01:35:556:   >>> Log start
+2025:11:28 21:01:35:558:   Mutex with given name doesn't exist. Creating new one.
+
+2025:11:28 21:01:35:560:   Obtained mutex succesfully.
+2025:11:28 21:01:35:561:   Single-instance mutex has been obtained
+2025:11:28 21:01:35:563:   Core version: 2.5.51
+2025:11:28 21:01:35:564:   Setup version: 2.1.18.0
+2025:11:28 21:01:35:566:   Command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 21:01:35:568:   OS data: 6-2-1-0 64-bit
+2025:11:28 21:01:35:570:   System up time: 768 sec
+2025:11:28 21:01:35:572:   Reboot pending: No
+2025:11:28 21:01:35:575:   Current UI language: 0412
+2025:11:28 21:01:35:579:   Language folder: C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp
+2025:11:28 21:01:35:872:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\ar-SA\IntelCommon.dll. Lang 0401. Rank 0
+2025:11:28 21:01:36:134:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\cs-CZ\IntelCommon.dll. Lang 0405. Rank 0
+2025:11:28 21:01:36:416:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\da-DK\IntelCommon.dll. Lang 0406. Rank 0
+2025:11:28 21:01:36:759:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\de-DE\IntelCommon.dll. Lang 0407. Rank 0
+2025:11:28 21:01:37:068:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\el-GR\IntelCommon.dll. Lang 0408. Rank 0
+2025:11:28 21:01:37:397:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\en-US\IntelCommon.dll. Lang 0409. Rank 1
+2025:11:28 21:01:37:690:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\es-ES\IntelCommon.dll. Lang 0C0A. Rank 0
+2025:11:28 21:01:37:970:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\fi-FI\IntelCommon.dll. Lang 040B. Rank 0
+2025:11:28 21:01:38:244:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\fr-FR\IntelCommon.dll. Lang 040C. Rank 0
+2025:11:28 21:01:38:484:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\he-IL\IntelCommon.dll. Lang 040D. Rank 0
+2025:11:28 21:01:38:748:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\hu-HU\IntelCommon.dll. Lang 040E. Rank 0
+2025:11:28 21:01:39:043:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\it-IT\IntelCommon.dll. Lang 0410. Rank 0
+2025:11:28 21:01:39:301:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\ja-JP\IntelCommon.dll. Lang 0411. Rank 0
+2025:11:28 21:01:39:556:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\ko-KR\IntelCommon.dll. Lang 0412. Rank 3
+2025:11:28 21:01:39:803:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\nb-NO\IntelCommon.dll. Lang 0414. Rank 0
+2025:11:28 21:01:40:062:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\nl-NL\IntelCommon.dll. Lang 0413. Rank 0
+2025:11:28 21:01:40:322:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\pl-PL\IntelCommon.dll. Lang 0415. Rank 0
+2025:11:28 21:01:40:610:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\pt-BR\IntelCommon.dll. Lang 0416. Rank 0
+2025:11:28 21:01:40:955:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\pt-PT\IntelCommon.dll. Lang 0816. Rank 0
+2025:11:28 21:01:41:255:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\ru-RU\IntelCommon.dll. Lang 0419. Rank 0
+2025:11:28 21:01:41:543:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\sk-SK\IntelCommon.dll. Lang 041B. Rank 0
+2025:11:28 21:01:41:878:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\sl-SI\IntelCommon.dll. Lang 0424. Rank 0
+2025:11:28 21:01:42:219:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\sv-SE\IntelCommon.dll. Lang 041D. Rank 0
+2025:11:28 21:01:42:571:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\th-TH\IntelCommon.dll. Lang 041E. Rank 0
+2025:11:28 21:01:42:935:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\tr-TR\IntelCommon.dll. Lang 041F. Rank 0
+2025:11:28 21:01:43:288:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\zh-CN\IntelCommon.dll. Lang 0804. Rank 0
+2025:11:28 21:01:43:678:     Found C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp\zh-TW\IntelCommon.dll. Lang 0404. Rank 0
+2025:11:28 21:01:43:691:   Loading language 0412
+2025:11:28 21:01:43:933:   Setup mode: Installation
+2025:11:28 21:01:43:936:   Looking for OS: 5.1 5.2
+2025:11:28 21:01:43:938:   Preparing to check for Kernal Mode Driver Framework 1.11 or higher
+2025:11:28 21:01:43:941:   KMDF 1.11 or higher detected!  
+2025:11:28 21:01:43:944:   Checking .NET version...
+2025:11:28 21:01:43:946:   Expected version: v3.5
+2025:11:28 21:01:43:948:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 21:01:43:951:   Checking .NET version...
+2025:11:28 21:01:43:953:   Expected version: v4\Client
+2025:11:28 21:01:43:958:   Found registry key for the expected .NET version.
+2025:11:28 21:01:43:962:   .NET version check passed
+2025:11:28 21:01:43:965:   Looking for OS: 5.1 5.2 6.1 6.2 6.3
+2025:11:28 21:01:43:967:   OS check passed
+2025:11:28 21:01:43:968:   Checking .NET version...
+2025:11:28 21:01:43:973:   Expected version: v3.5
+2025:11:28 21:01:43:975:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 21:01:43:978:   Checking .NET version...
+2025:11:28 21:01:43:980:   Expected version: v4\Client
+2025:11:28 21:01:43:983:   Found registry key for the expected .NET version.
+2025:11:28 21:01:43:985:   .NET version check passed
+2025:11:28 21:01:43:987:   Resolving driver source
+2025:11:28 21:01:43:994:     Using embedded driver(s). Temp source is 'C:\Users\hgw03\AppData\Local\Temp\IIFDB67.tmp'
+2025:11:28 21:01:44:324:   Using folder 'C:\Users\hgw03\AppData\Local\Temp\IIFDB67.tmp' as the driver source
+2025:11:28 21:01:44:326:   Scanning all active devices
+2025:11:28 21:01:44:669:   Scanning HECI\heci.inf (Name: HECI_HECI, Version: 11.0.0.1172)
+2025:11:28 21:01:44:676:     Section with the best match: Intel.NTamd64.10.0
+2025:11:28 21:01:44:676:       Device: PCI\VEN_8086&DEV_1E3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:676:       Device: PCI\VEN_8086&DEV_1CBA (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:676:       Device: PCI\VEN_8086&DEV_1C3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:676:       Device: PCI\VEN_8086&DEV_1DBA (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:684:       Device: PCI\VEN_8086&DEV_1D3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:684:       Device: PCI\VEN_8086&DEV_8C3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:689:       Device: PCI\VEN_8086&DEV_9C3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:691:       Device: PCI\VEN_8086&DEV_8D3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:692:       Device: PCI\VEN_8086&DEV_9CBA (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:694:       Device: PCI\VEN_8086&DEV_8CBA (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:696:       Device: PCI\VEN_8086&DEV_9D3A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:817:         Matched with: PCI\VEN_8086&DEV_9D3A&SUBSYS_8197103C&REV_21
+2025:11:28 21:01:44:817:         Current driver: oem5.inf
+2025:11:28 21:01:44:833:           Name: , Provider: Intel, Version: 2108.100.0.1053, Section: TEE_DDI_x64
+2025:11:28 21:01:44:836:   		Added matched device: PCI\VEN_8086&DEV_9D3A
+2025:11:28 21:01:44:838:         This is a downgrade
+2025:11:28 21:01:44:840:       Device: PCI\VEN_8086&DEV_A13A (Intel(R) Management Engine Interface )
+2025:11:28 21:01:44:842:     MUP OS bits: 0xFFFFE
+2025:11:28 21:01:44:918:   Scanning SOL\mesrl.inf (Name: SOL_MESRL, Version: 11.0.0.1136)
+2025:11:28 21:01:44:918:     Section with the best match: Intel.NTamd64
+2025:11:28 21:01:44:918:       Device: PCI\VEN_8086&DEV_1E3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:933:       Device: PCI\VEN_8086&DEV_1CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:933:       Device: PCI\VEN_8086&DEV_1C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:933:       Device: PCI\VEN_8086&DEV_1DBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:937:       Device: PCI\VEN_8086&DEV_1D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:939:       Device: PCI\VEN_8086&DEV_8C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:939:       Device: PCI\VEN_8086&DEV_9C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:941:       Device: PCI\VEN_8086&DEV_9CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:943:       Device: PCI\VEN_8086&DEV_8D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:945:       Device: PCI\VEN_8086&DEV_9D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:988:         Matched with: PCI\VEN_8086&DEV_9D3D&CC_070002
+2025:11:28 21:01:44:990:         No pre-existing driver found
+2025:11:28 21:01:44:991:   		Added matched device: PCI\VEN_8086&DEV_9D3D&CC_0700
+2025:11:28 21:01:44:993:       Device: PCI\VEN_8086&DEV_A13D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 21:01:44:995:     MUP OS bits: 0xFFFFE
+2025:11:28 21:01:44:998:   Creating properties for all matching INF's
+2025:11:28 21:01:45:000:   Architecture supported: x86
+2025:11:28 21:01:45:002:   Architecture supported: x64
+2025:11:28 21:01:45:011:   Package folder is C:\Users\hgw03\AppData\Local\Temp\IIFDF60.tmp
+2025:11:28 21:01:48:000:   Package information;
+2025:11:28 21:01:48:000:     Type MSI: ID='{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 21:01:48:000:     Type MSI: ID='{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 21:01:48:000:     Type MSI: ID='{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 21:01:48:000:     Type MSI: ID='{C769B4D9-C208-4FC9-BBEF-420C8C219253}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 21:01:48:000:     Type MSI: ID='{97A8120A-818B-425A-89F5-C2A610A24862}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 21:01:48:000:     Type MSI: ID='{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 21:01:48:025:   Preparing UI
+2025:11:28 21:01:48:088:   Reading storyboard
+2025:11:28 21:01:48:089:     Page count: 7
+2025:11:28 21:01:48:092:     Added: Welcome
+2025:11:28 21:01:48:093:     Added: Modify
+2025:11:28 21:01:48:095:     Added: License
+2025:11:28 21:01:48:096:     Added: Destination
+2025:11:28 21:01:48:098:     Added: Progress
+2025:11:28 21:01:48:099:     Added: Finish
+2025:11:28 21:01:48:103:     Added: Error
+2025:11:28 21:01:48:104:   Reading string map
+2025:11:28 21:01:48:106:     No string map present
+2025:11:28 21:01:49:218:   Showing page: Welcome
+2025:11:28 21:01:57:235:   Showing page: License
+2025:11:28 21:02:00:493:   Showing page: Destination
+2025:11:28 21:02:01:566:   Setup thread started
+2025:11:28 21:02:01:569:     Installing 'ME_UnLegacy_x64.msi'
+2025:11:28 21:02:01:571:       Properties 'REBOOT=ReallySuppress ADDLOCAL=LegacyUninstallFeature'
+2025:11:28 21:02:01:573:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 21:02:01:693:   Showing page: Progress
+2025:11:28 21:02:05:947:       Caching MSI
+2025:11:28 21:02:05:951:       Return code: 0
+2025:11:28 21:02:05:952:     Installing 'ME_MEI_Drivers_x64.msi'
+2025:11:28 21:02:05:954:       Properties 'PRODUCTFOLDER32="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components" REBOOT=ReallySuppress ADDLOCAL=DriverFeature'
+2025:11:28 21:02:05:956:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 21:02:14:126:       Return code: 1603
+2025:11:28 21:02:14:128: W   Aborting install
+2025:11:28 21:02:14:130:   Updating ME Components size (ARP).
+2025:11:28 21:02:14:132:   Error while setting estimated aplication size column: 2
+2025:11:28 21:02:14:324:   Showing page: Error
+2025:11:28 21:06:55:804:   Dumping properties (38 total)
+2025:11:28 21:06:55:805:     IIF_MSILOGLEVEL=4096
+2025:11:28 21:06:55:807:     ME_WMI_STATE=1
+2025:11:28 21:06:55:809:     ME_LMS_STATE=1
+2025:11:28 21:06:55:812:     ME_NAC_STATE=1
+2025:11:28 21:06:55:814:     ME_IMSS_STATE=1
+2025:11:28 21:06:55:816:     ME_ICLS_STATE=1
+2025:11:28 21:06:55:817:     ME_VCCRT_STATE=1
+2025:11:28 21:06:55:819:     ME_DAL_STATE=1
+2025:11:28 21:06:55:820:     ME_SPE_STATE=1
+2025:11:28 21:06:55:821:     ME_GEMALTO_FW=0
+2025:11:28 21:06:55:823:     IIF_NOPRUNE=1
+2025:11:28 21:06:55:824:     IIF_NOMSITRANSACTIONS=1
+2025:11:28 21:06:55:825:     IIF_LOGFOLDER=C:\Users\hgw03\Intel\Logs
+2025:11:28 21:06:55:826:     IIF_SETUPVERSION=2.1.18.0
+2025:11:28 21:06:55:829:     IIF_PACKAGEVERSION=11.0.0.1173
+2025:11:28 21:06:55:831:     IIF_SETUPPATH=C:\swsetup\SP74467
+2025:11:28 21:06:55:833:     IIF_CACHELOC=C:\ProgramData\Intel\Package Cache\{1CEAC85D-2590-4760-800F-8DE5E91F3700}
+2025:11:28 21:06:55:835:     IIF_OS=10.0
+2025:11:28 21:06:55:835:     IIF_DEBUG_REPORTEDVERSION=6.2
+2025:11:28 21:06:55:835:     IIF_OSSERVICEPACK=0
+2025:11:28 21:06:55:839:     IIF_IS64=1
+2025:11:28 21:06:55:841:     IIF_NET40CLIENT=1
+2025:11:28 21:06:55:841:     IIF_NET40FULL=1
+2025:11:28 21:06:55:844:     IIF_NET45CLIENT=1
+2025:11:28 21:06:55:847:     IIF_NET45FULL=1
+2025:11:28 21:06:55:849:     IIF_INSTALLFOLDER=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components
+2025:11:28 21:06:55:852:     IIF_LANGCOUNTRY=ko-KR
+2025:11:28 21:06:55:854:     IIF_HASBATTERY=1
+2025:11:28 21:06:55:855:     IIF_BATTERYPOWER=100
+2025:11:28 21:06:55:856:     IIF_RESOURCEFOLDER=C:\Users\hgw03\AppData\Local\Temp\IIFBA90.tmp
+2025:11:28 21:06:55:858:     IIF_SETUPMODE=INSTALL
+2025:11:28 21:06:55:859:     _INF_HECI_HECI_VERSION=11.0.0.1172
+2025:11:28 21:06:55:862:     _INF_SOL_MESRL_VERSION=11.0.0.1136
+2025:11:28 21:06:55:863:     IIF_PACKAGEPATH=C:\Users\hgw03\AppData\Local\Temp\IIFDF60.tmp
+2025:11:28 21:06:55:865:     IIF_LICENSE=
+2025:11:28 21:06:55:866:     IIF_ACCEPTED=1
+2025:11:28 21:06:55:867:     IIF_EXITCODE=1603
+2025:11:28 21:06:55:869:     IIF_README=
+2025:11:28 21:06:55:870:   Dumping feature states
+2025:11:28 21:06:55:872:     Feature: 'LegacyUninstallFeature' | Package: '{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:874:     Feature: 'DriverFeature' | Package: '{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:876:     Feature: 'DriverFeature' | Package: '{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:879:     Feature: 'WMIFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:881:     Feature: 'VCRedist' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:882:     Feature: 'LMSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:882:     Feature: 'NACFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:884:     Feature: 'IMSSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:886:     Feature: 'DALFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:888:     Feature: 'ALL' | Package: '{97A8120A-818B-425A-89F5-C2A610A24862}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:888:     Feature: 'IntelSA' | Package: '' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:888:     Feature: 'ProductFeature' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:888:     Feature: 'VCRedist' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 21:06:55:894:   Exit code (command line): 1603
+2025:11:28 21:06:55:894:   >>> Log End
+2025:11:28 22:15:40:939:   
+2025:11:28 22:15:40:941:   >>>Dumping deffered logs
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v2.0.50727
+2025:11:28 22:15:40:895:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v3.0
+2025:11:28 22:15:40:895:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v3.5
+2025:11:28 22:15:40:895:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v4\Client
+2025:11:28 22:15:40:895:   Found registry key for the expected .NET version.
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v4\Full
+2025:11:28 22:15:40:895:   Found registry key for the expected .NET version.
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v4.5\Client
+2025:11:28 22:15:40:895:   Found registry key for the expected .NET version.
+2025:11:28 22:15:40:895:   Looking for .NET version 4.5 or above
+2025:11:28 22:15:40:895:   Found version: 4.8.09032
+2025:11:28 22:15:40:895:   Checking .NET version...
+2025:11:28 22:15:40:895:   Expected version: v4.5\Full
+2025:11:28 22:15:40:895:   Found registry key for the expected .NET version.
+2025:11:28 22:15:40:895:   Looking for .NET version 4.5 or above
+2025:11:28 22:15:40:895:   Found version: 4.8.09032
+2025:11:28 22:15:40:895:   Loading saved properties
+2025:11:28 22:15:40:936:   Effective command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:15:40:949:   >>> Log start
+2025:11:28 22:15:40:951:   Mutex with given name doesn't exist. Creating new one.
+
+2025:11:28 22:15:40:952:   Obtained mutex succesfully.
+2025:11:28 22:15:40:954:   Single-instance mutex has been obtained
+2025:11:28 22:15:40:956:   Core version: 2.5.51
+2025:11:28 22:15:40:956:   Setup version: 2.1.18.0
+2025:11:28 22:15:40:956:   Command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:15:40:956:   OS data: 6-2-1-0 64-bit
+2025:11:28 22:15:40:956:   System up time: 2190 sec
+2025:11:28 22:15:40:956:   Reboot pending: No
+2025:11:28 22:15:40:956:   Current UI language: 0412
+2025:11:28 22:15:40:956:   Language folder: C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp
+2025:11:28 22:15:41:247:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\ar-SA\IntelCommon.dll. Lang 0401. Rank 0
+2025:11:28 22:15:41:483:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\cs-CZ\IntelCommon.dll. Lang 0405. Rank 0
+2025:11:28 22:15:41:722:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\da-DK\IntelCommon.dll. Lang 0406. Rank 0
+2025:11:28 22:15:42:001:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\de-DE\IntelCommon.dll. Lang 0407. Rank 0
+2025:11:28 22:15:42:335:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\el-GR\IntelCommon.dll. Lang 0408. Rank 0
+2025:11:28 22:15:42:638:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\en-US\IntelCommon.dll. Lang 0409. Rank 1
+2025:11:28 22:15:42:892:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\es-ES\IntelCommon.dll. Lang 0C0A. Rank 0
+2025:11:28 22:15:43:146:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\fi-FI\IntelCommon.dll. Lang 040B. Rank 0
+2025:11:28 22:15:43:399:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\fr-FR\IntelCommon.dll. Lang 040C. Rank 0
+2025:11:28 22:15:43:666:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\he-IL\IntelCommon.dll. Lang 040D. Rank 0
+2025:11:28 22:15:43:899:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\hu-HU\IntelCommon.dll. Lang 040E. Rank 0
+2025:11:28 22:15:44:155:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\it-IT\IntelCommon.dll. Lang 0410. Rank 0
+2025:11:28 22:15:44:413:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\ja-JP\IntelCommon.dll. Lang 0411. Rank 0
+2025:11:28 22:15:44:692:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\ko-KR\IntelCommon.dll. Lang 0412. Rank 3
+2025:11:28 22:15:44:999:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\nb-NO\IntelCommon.dll. Lang 0414. Rank 0
+2025:11:28 22:15:45:272:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\nl-NL\IntelCommon.dll. Lang 0413. Rank 0
+2025:11:28 22:15:45:524:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\pl-PL\IntelCommon.dll. Lang 0415. Rank 0
+2025:11:28 22:15:45:768:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\pt-BR\IntelCommon.dll. Lang 0416. Rank 0
+2025:11:28 22:15:46:046:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\pt-PT\IntelCommon.dll. Lang 0816. Rank 0
+2025:11:28 22:15:46:293:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\ru-RU\IntelCommon.dll. Lang 0419. Rank 0
+2025:11:28 22:15:46:534:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\sk-SK\IntelCommon.dll. Lang 041B. Rank 0
+2025:11:28 22:15:46:774:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\sl-SI\IntelCommon.dll. Lang 0424. Rank 0
+2025:11:28 22:15:47:041:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\sv-SE\IntelCommon.dll. Lang 041D. Rank 0
+2025:11:28 22:15:47:293:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\th-TH\IntelCommon.dll. Lang 041E. Rank 0
+2025:11:28 22:15:47:544:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\tr-TR\IntelCommon.dll. Lang 041F. Rank 0
+2025:11:28 22:15:47:774:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\zh-CN\IntelCommon.dll. Lang 0804. Rank 0
+2025:11:28 22:15:48:021:     Found C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp\zh-TW\IntelCommon.dll. Lang 0404. Rank 0
+2025:11:28 22:15:48:036:   Loading language 0412
+2025:11:28 22:15:48:189:   Setup mode: Installation
+2025:11:28 22:15:48:191:   Looking for OS: 5.1 5.2
+2025:11:28 22:15:48:193:   Preparing to check for Kernal Mode Driver Framework 1.11 or higher
+2025:11:28 22:15:48:196:   KMDF 1.11 or higher detected!  
+2025:11:28 22:15:48:197:   Checking .NET version...
+2025:11:28 22:15:48:198:   Expected version: v3.5
+2025:11:28 22:15:48:200:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:15:48:201:   Checking .NET version...
+2025:11:28 22:15:48:202:   Expected version: v4\Client
+2025:11:28 22:15:48:204:   Found registry key for the expected .NET version.
+2025:11:28 22:15:48:205:   .NET version check passed
+2025:11:28 22:15:48:207:   Looking for OS: 5.1 5.2 6.1 6.2 6.3
+2025:11:28 22:15:48:211:   OS check passed
+2025:11:28 22:15:48:211:   Checking .NET version...
+2025:11:28 22:15:48:211:   Expected version: v3.5
+2025:11:28 22:15:48:211:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:15:48:211:   Checking .NET version...
+2025:11:28 22:15:48:211:   Expected version: v4\Client
+2025:11:28 22:15:48:211:   Found registry key for the expected .NET version.
+2025:11:28 22:15:48:211:   .NET version check passed
+2025:11:28 22:15:48:223:   Resolving driver source
+2025:11:28 22:15:48:231:     Using embedded driver(s). Temp source is 'C:\Users\hgw03\AppData\Local\Temp\IIF8741.tmp'
+2025:11:28 22:15:48:441:   Using folder 'C:\Users\hgw03\AppData\Local\Temp\IIF8741.tmp' as the driver source
+2025:11:28 22:15:48:441:   Scanning all active devices
+2025:11:28 22:15:48:711:   Scanning HECI\heci.inf (Name: HECI_HECI, Version: 11.0.0.1172)
+2025:11:28 22:15:48:715:     Section with the best match: Intel.NTamd64.10.0
+2025:11:28 22:15:48:717:       Device: PCI\VEN_8086&DEV_1E3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:719:       Device: PCI\VEN_8086&DEV_1CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:721:       Device: PCI\VEN_8086&DEV_1C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:723:       Device: PCI\VEN_8086&DEV_1DBA (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:725:       Device: PCI\VEN_8086&DEV_1D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:726:       Device: PCI\VEN_8086&DEV_8C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:728:       Device: PCI\VEN_8086&DEV_9C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:729:       Device: PCI\VEN_8086&DEV_8D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:730:       Device: PCI\VEN_8086&DEV_9CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:731:       Device: PCI\VEN_8086&DEV_8CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:733:       Device: PCI\VEN_8086&DEV_9D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:826:         Matched with: PCI\VEN_8086&DEV_9D3A&SUBSYS_8197103C&REV_21
+2025:11:28 22:15:48:829:         Current driver: oem5.inf
+2025:11:28 22:15:48:830:           Name: , Provider: Intel, Version: 2108.100.0.1053, Section: TEE_DDI_x64
+2025:11:28 22:15:48:831:   		Added matched device: PCI\VEN_8086&DEV_9D3A
+2025:11:28 22:15:48:832:         This is a downgrade
+2025:11:28 22:15:48:834:       Device: PCI\VEN_8086&DEV_A13A (Intel(R) Management Engine Interface )
+2025:11:28 22:15:48:835:     MUP OS bits: 0xFFFFE
+2025:11:28 22:15:48:923:   Scanning SOL\mesrl.inf (Name: SOL_MESRL, Version: 11.0.0.1136)
+2025:11:28 22:15:48:923:     Section with the best match: Intel.NTamd64
+2025:11:28 22:15:48:933:       Device: PCI\VEN_8086&DEV_1E3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:933:       Device: PCI\VEN_8086&DEV_1CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:933:       Device: PCI\VEN_8086&DEV_1C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:939:       Device: PCI\VEN_8086&DEV_1DBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:943:       Device: PCI\VEN_8086&DEV_1D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:945:       Device: PCI\VEN_8086&DEV_8C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:947:       Device: PCI\VEN_8086&DEV_9C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:949:       Device: PCI\VEN_8086&DEV_9CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:951:       Device: PCI\VEN_8086&DEV_8D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:953:       Device: PCI\VEN_8086&DEV_9D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:988:         Matched with: PCI\VEN_8086&DEV_9D3D&CC_070002
+2025:11:28 22:15:48:990:         No pre-existing driver found
+2025:11:28 22:15:48:991:   		Added matched device: PCI\VEN_8086&DEV_9D3D&CC_0700
+2025:11:28 22:15:48:993:       Device: PCI\VEN_8086&DEV_A13D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:15:48:995:     MUP OS bits: 0xFFFFE
+2025:11:28 22:15:48:996:   Creating properties for all matching INF's
+2025:11:28 22:15:48:996:   Architecture supported: x86
+2025:11:28 22:15:48:998:   Architecture supported: x64
+2025:11:28 22:15:49:005:   Package folder is C:\Users\hgw03\AppData\Local\Temp\IIF8A40.tmp
+2025:11:28 22:15:51:936:   Package information;
+2025:11:28 22:15:51:938:     Type MSI: ID='{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:15:51:941:     Type MSI: ID='{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:15:51:943:     Type MSI: ID='{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:15:51:944:     Type MSI: ID='{C769B4D9-C208-4FC9-BBEF-420C8C219253}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:15:51:947:     Type MSI: ID='{97A8120A-818B-425A-89F5-C2A610A24862}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:15:51:948:     Type MSI: ID='{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:15:51:954:   Preparing UI
+2025:11:28 22:15:52:019:   Reading storyboard
+2025:11:28 22:15:52:022:     Page count: 7
+2025:11:28 22:15:52:024:     Added: Welcome
+2025:11:28 22:15:52:026:     Added: Modify
+2025:11:28 22:15:52:026:     Added: License
+2025:11:28 22:15:52:027:     Added: Destination
+2025:11:28 22:15:52:029:     Added: Progress
+2025:11:28 22:15:52:031:     Added: Finish
+2025:11:28 22:15:52:033:     Added: Error
+2025:11:28 22:15:52:034:   Reading string map
+2025:11:28 22:15:52:034:     No string map present
+2025:11:28 22:15:53:127:   Showing page: Welcome
+2025:11:28 22:15:58:398:   Showing page: License
+2025:11:28 22:16:02:954:   Showing page: Destination
+2025:11:28 22:16:15:677:   Setup thread started
+2025:11:28 22:16:15:680:     Installing 'ME_UnLegacy_x64.msi'
+2025:11:28 22:16:15:682:       Properties 'REBOOT=ReallySuppress ADDLOCAL=LegacyUninstallFeature'
+2025:11:28 22:16:15:684:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:16:15:801:   Showing page: Progress
+2025:11:28 22:16:18:060:       Caching MSI
+2025:11:28 22:16:18:062:       Return code: 0
+2025:11:28 22:16:18:064:     Installing 'ME_MEI_Drivers_x64.msi'
+2025:11:28 22:16:18:066:       Properties 'PRODUCTFOLDER32="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components" REBOOT=ReallySuppress ADDLOCAL=DriverFeature'
+2025:11:28 22:16:18:067:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:16:22:257:       Return code: 1603
+2025:11:28 22:16:22:258: W   Aborting install
+2025:11:28 22:16:22:260:   Updating ME Components size (ARP).
+2025:11:28 22:16:22:262:   Error while setting estimated aplication size column: 2
+2025:11:28 22:16:22:457:   Showing page: Error
+2025:11:28 22:16:32:076:   Link: Launching 'C:\Users\hgw03\Intel\Logs'
+2025:11:28 22:18:24:291:   Dumping properties (38 total)
+2025:11:28 22:18:24:295:     IIF_MSILOGLEVEL=4096
+2025:11:28 22:18:24:298:     ME_WMI_STATE=1
+2025:11:28 22:18:24:301:     ME_LMS_STATE=1
+2025:11:28 22:18:24:303:     ME_NAC_STATE=1
+2025:11:28 22:18:24:307:     ME_IMSS_STATE=1
+2025:11:28 22:18:24:309:     ME_ICLS_STATE=1
+2025:11:28 22:18:24:312:     ME_VCCRT_STATE=1
+2025:11:28 22:18:24:313:     ME_DAL_STATE=1
+2025:11:28 22:18:24:314:     ME_SPE_STATE=1
+2025:11:28 22:18:24:316:     ME_GEMALTO_FW=0
+2025:11:28 22:18:24:318:     IIF_NOPRUNE=1
+2025:11:28 22:18:24:320:     IIF_NOMSITRANSACTIONS=1
+2025:11:28 22:18:24:324:     IIF_LOGFOLDER=C:\Users\hgw03\Intel\Logs
+2025:11:28 22:18:24:326:     IIF_SETUPVERSION=2.1.18.0
+2025:11:28 22:18:24:329:     IIF_PACKAGEVERSION=11.0.0.1173
+2025:11:28 22:18:24:330:     IIF_SETUPPATH=C:\swsetup\SP74467
+2025:11:28 22:18:24:332:     IIF_CACHELOC=C:\ProgramData\Intel\Package Cache\{1CEAC85D-2590-4760-800F-8DE5E91F3700}
+2025:11:28 22:18:24:334:     IIF_OS=10.0
+2025:11:28 22:18:24:337:     IIF_DEBUG_REPORTEDVERSION=6.2
+2025:11:28 22:18:24:341:     IIF_OSSERVICEPACK=0
+2025:11:28 22:18:24:344:     IIF_IS64=1
+2025:11:28 22:18:24:346:     IIF_NET40CLIENT=1
+2025:11:28 22:18:24:348:     IIF_NET40FULL=1
+2025:11:28 22:18:24:350:     IIF_NET45CLIENT=1
+2025:11:28 22:18:24:353:     IIF_NET45FULL=1
+2025:11:28 22:18:24:355:     IIF_INSTALLFOLDER=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components
+2025:11:28 22:18:24:357:     IIF_LANGCOUNTRY=ko-KR
+2025:11:28 22:18:24:359:     IIF_HASBATTERY=1
+2025:11:28 22:18:24:362:     IIF_BATTERYPOWER=100
+2025:11:28 22:18:24:362:     IIF_RESOURCEFOLDER=C:\Users\hgw03\AppData\Local\Temp\IIF6ADE.tmp
+2025:11:28 22:18:24:364:     IIF_SETUPMODE=INSTALL
+2025:11:28 22:18:24:365:     _INF_HECI_HECI_VERSION=11.0.0.1172
+2025:11:28 22:18:24:367:     _INF_SOL_MESRL_VERSION=11.0.0.1136
+2025:11:28 22:18:24:368:     IIF_PACKAGEPATH=C:\Users\hgw03\AppData\Local\Temp\IIF8A40.tmp
+2025:11:28 22:18:24:369:     IIF_LICENSE=
+2025:11:28 22:18:24:375:     IIF_ACCEPTED=1
+2025:11:28 22:18:24:382:     IIF_EXITCODE=1603
+2025:11:28 22:18:24:396:     IIF_README=
+2025:11:28 22:18:24:401:   Dumping feature states
+2025:11:28 22:18:24:410:     Feature: 'LegacyUninstallFeature' | Package: '{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:412:     Feature: 'DriverFeature' | Package: '{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:416:     Feature: 'DriverFeature' | Package: '{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:418:     Feature: 'WMIFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:420:     Feature: 'VCRedist' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:570:     Feature: 'LMSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:815:     Feature: 'NACFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:818:     Feature: 'IMSSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:24:998:     Feature: 'DALFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:25:001:     Feature: 'ALL' | Package: '{97A8120A-818B-425A-89F5-C2A610A24862}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:25:011:     Feature: 'IntelSA' | Package: '' | Current: 'false' | New: 'true'
+2025:11:28 22:18:25:016:     Feature: 'ProductFeature' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:25:027:     Feature: 'VCRedist' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 22:18:25:046:   Exit code (command line): 1603
+2025:11:28 22:18:25:093:   >>> Log End
+2025:11:28 22:22:52:854:   
+2025:11:28 22:22:52:855:   >>>Dumping deffered logs
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v2.0.50727
+2025:11:28 22:22:52:817:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v3.0
+2025:11:28 22:22:52:817:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v3.5
+2025:11:28 22:22:52:817:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v4\Client
+2025:11:28 22:22:52:817:   Found registry key for the expected .NET version.
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v4\Full
+2025:11:28 22:22:52:817:   Found registry key for the expected .NET version.
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v4.5\Client
+2025:11:28 22:22:52:817:   Found registry key for the expected .NET version.
+2025:11:28 22:22:52:817:   Looking for .NET version 4.5 or above
+2025:11:28 22:22:52:817:   Found version: 4.8.09032
+2025:11:28 22:22:52:817:   Checking .NET version...
+2025:11:28 22:22:52:817:   Expected version: v4.5\Full
+2025:11:28 22:22:52:817:   Found registry key for the expected .NET version.
+2025:11:28 22:22:52:817:   Looking for .NET version 4.5 or above
+2025:11:28 22:22:52:817:   Found version: 4.8.09032
+2025:11:28 22:22:52:817:   Loading saved properties
+2025:11:28 22:22:52:848:   Effective command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:22:52:860:   >>> Log start
+2025:11:28 22:22:52:861:   Mutex with given name doesn't exist. Creating new one.
+
+2025:11:28 22:22:52:864:   Obtained mutex succesfully.
+2025:11:28 22:22:52:866:   Single-instance mutex has been obtained
+2025:11:28 22:22:52:868:   Core version: 2.5.51
+2025:11:28 22:22:52:869:   Setup version: 2.1.18.0
+2025:11:28 22:22:52:870:   Command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:22:52:872:   OS data: 6-2-1-0 64-bit
+2025:11:28 22:22:52:873:   System up time: 2621 sec
+2025:11:28 22:22:52:874:   Reboot pending: No
+2025:11:28 22:22:52:876:   Current UI language: 0412
+2025:11:28 22:22:52:880:   Language folder: C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp
+2025:11:28 22:22:53:149:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\ar-SA\IntelCommon.dll. Lang 0401. Rank 0
+2025:11:28 22:22:53:383:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\cs-CZ\IntelCommon.dll. Lang 0405. Rank 0
+2025:11:28 22:22:53:623:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\da-DK\IntelCommon.dll. Lang 0406. Rank 0
+2025:11:28 22:22:53:864:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\de-DE\IntelCommon.dll. Lang 0407. Rank 0
+2025:11:28 22:22:54:134:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\el-GR\IntelCommon.dll. Lang 0408. Rank 0
+2025:11:28 22:22:54:404:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\en-US\IntelCommon.dll. Lang 0409. Rank 1
+2025:11:28 22:22:54:690:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\es-ES\IntelCommon.dll. Lang 0C0A. Rank 0
+2025:11:28 22:22:54:991:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\fi-FI\IntelCommon.dll. Lang 040B. Rank 0
+2025:11:28 22:22:55:254:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\fr-FR\IntelCommon.dll. Lang 040C. Rank 0
+2025:11:28 22:22:55:539:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\he-IL\IntelCommon.dll. Lang 040D. Rank 0
+2025:11:28 22:22:55:775:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\hu-HU\IntelCommon.dll. Lang 040E. Rank 0
+2025:11:28 22:22:56:043:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\it-IT\IntelCommon.dll. Lang 0410. Rank 0
+2025:11:28 22:22:56:297:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\ja-JP\IntelCommon.dll. Lang 0411. Rank 0
+2025:11:28 22:22:56:541:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\ko-KR\IntelCommon.dll. Lang 0412. Rank 3
+2025:11:28 22:22:56:782:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\nb-NO\IntelCommon.dll. Lang 0414. Rank 0
+2025:11:28 22:22:57:045:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\nl-NL\IntelCommon.dll. Lang 0413. Rank 0
+2025:11:28 22:22:57:295:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\pl-PL\IntelCommon.dll. Lang 0415. Rank 0
+2025:11:28 22:22:57:587:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\pt-BR\IntelCommon.dll. Lang 0416. Rank 0
+2025:11:28 22:22:57:839:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\pt-PT\IntelCommon.dll. Lang 0816. Rank 0
+2025:11:28 22:22:58:118:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\ru-RU\IntelCommon.dll. Lang 0419. Rank 0
+2025:11:28 22:22:58:357:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\sk-SK\IntelCommon.dll. Lang 041B. Rank 0
+2025:11:28 22:22:58:599:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\sl-SI\IntelCommon.dll. Lang 0424. Rank 0
+2025:11:28 22:22:58:868:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\sv-SE\IntelCommon.dll. Lang 041D. Rank 0
+2025:11:28 22:22:59:146:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\th-TH\IntelCommon.dll. Lang 041E. Rank 0
+2025:11:28 22:22:59:396:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\tr-TR\IntelCommon.dll. Lang 041F. Rank 0
+2025:11:28 22:22:59:653:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\zh-CN\IntelCommon.dll. Lang 0804. Rank 0
+2025:11:28 22:22:59:872:     Found C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp\zh-TW\IntelCommon.dll. Lang 0404. Rank 0
+2025:11:28 22:22:59:882:   Loading language 0412
+2025:11:28 22:22:59:898:   Setup mode: Installation
+2025:11:28 22:22:59:902:   Looking for OS: 5.1 5.2
+2025:11:28 22:22:59:905:   Preparing to check for Kernal Mode Driver Framework 1.11 or higher
+2025:11:28 22:22:59:906:   KMDF 1.11 or higher detected!  
+2025:11:28 22:22:59:907:   Checking .NET version...
+2025:11:28 22:22:59:909:   Expected version: v3.5
+2025:11:28 22:22:59:911:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:22:59:912:   Checking .NET version...
+2025:11:28 22:22:59:914:   Expected version: v4\Client
+2025:11:28 22:22:59:915:   Found registry key for the expected .NET version.
+2025:11:28 22:22:59:917:   .NET version check passed
+2025:11:28 22:22:59:919:   Looking for OS: 5.1 5.2 6.1 6.2 6.3
+2025:11:28 22:22:59:922:   OS check passed
+2025:11:28 22:22:59:924:   Checking .NET version...
+2025:11:28 22:22:59:925:   Expected version: v3.5
+2025:11:28 22:22:59:926:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:22:59:927:   Checking .NET version...
+2025:11:28 22:22:59:929:   Expected version: v4\Client
+2025:11:28 22:22:59:931:   Found registry key for the expected .NET version.
+2025:11:28 22:22:59:934:   .NET version check passed
+2025:11:28 22:22:59:935:   Resolving driver source
+2025:11:28 22:22:59:941:     Using embedded driver(s). Temp source is 'C:\Users\hgw03\AppData\Local\Temp\IIF1D98.tmp'
+2025:11:28 22:23:00:162:   Using folder 'C:\Users\hgw03\AppData\Local\Temp\IIF1D98.tmp' as the driver source
+2025:11:28 22:23:00:164:   Scanning all active devices
+2025:11:28 22:23:00:417:   Scanning HECI\heci.inf (Name: HECI_HECI, Version: 11.0.0.1172)
+2025:11:28 22:23:00:422:     Section with the best match: Intel.NTamd64.10.0
+2025:11:28 22:23:00:424:       Device: PCI\VEN_8086&DEV_1E3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:426:       Device: PCI\VEN_8086&DEV_1CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:427:       Device: PCI\VEN_8086&DEV_1C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:429:       Device: PCI\VEN_8086&DEV_1DBA (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:431:       Device: PCI\VEN_8086&DEV_1D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:432:       Device: PCI\VEN_8086&DEV_8C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:434:       Device: PCI\VEN_8086&DEV_9C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:437:       Device: PCI\VEN_8086&DEV_8D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:439:       Device: PCI\VEN_8086&DEV_9CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:439:       Device: PCI\VEN_8086&DEV_8CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:441:       Device: PCI\VEN_8086&DEV_9D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:442:       Device: PCI\VEN_8086&DEV_A13A (Intel(R) Management Engine Interface )
+2025:11:28 22:23:00:444:     MUP OS bits: 0xFFFFE
+2025:11:28 22:23:00:462:   Scanning SOL\mesrl.inf (Name: SOL_MESRL, Version: 11.0.0.1136)
+2025:11:28 22:23:00:465:     Section with the best match: Intel.NTamd64
+2025:11:28 22:23:00:467:       Device: PCI\VEN_8086&DEV_1E3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:468:       Device: PCI\VEN_8086&DEV_1CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:470:       Device: PCI\VEN_8086&DEV_1C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:471:       Device: PCI\VEN_8086&DEV_1DBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:472:       Device: PCI\VEN_8086&DEV_1D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:473:       Device: PCI\VEN_8086&DEV_8C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:475:       Device: PCI\VEN_8086&DEV_9C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:476:       Device: PCI\VEN_8086&DEV_9CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:478:       Device: PCI\VEN_8086&DEV_8D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:479:       Device: PCI\VEN_8086&DEV_9D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:514:         Matched with: PCI\VEN_8086&DEV_9D3D&CC_070002
+2025:11:28 22:23:00:515:         No pre-existing driver found
+2025:11:28 22:23:00:517:   		Added matched device: PCI\VEN_8086&DEV_9D3D&CC_0700
+2025:11:28 22:23:00:519:       Device: PCI\VEN_8086&DEV_A13D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:23:00:521:     MUP OS bits: 0xFFFFE
+2025:11:28 22:23:00:523:   Creating properties for all matching INF's
+2025:11:28 22:23:00:524:   Architecture supported: x86
+2025:11:28 22:23:00:525:   Architecture supported: x64
+2025:11:28 22:23:00:531:   Package folder is C:\Users\hgw03\AppData\Local\Temp\IIF1FEB.tmp
+2025:11:28 22:23:03:760:   Package information;
+2025:11:28 22:23:03:763:     Type MSI: ID='{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:23:03:765:     Type MSI: ID='{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:23:03:769:     Type MSI: ID='{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:23:03:771:     Type MSI: ID='{C769B4D9-C208-4FC9-BBEF-420C8C219253}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:23:03:772:     Type MSI: ID='{97A8120A-818B-425A-89F5-C2A610A24862}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:23:03:774:     Type MSI: ID='{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:23:03:780:   Preparing UI
+2025:11:28 22:23:03:843:   Reading storyboard
+2025:11:28 22:23:03:846:     Page count: 7
+2025:11:28 22:23:03:847:     Added: Welcome
+2025:11:28 22:23:03:850:     Added: Modify
+2025:11:28 22:23:03:850:     Added: License
+2025:11:28 22:23:03:854:     Added: Destination
+2025:11:28 22:23:03:854:     Added: Progress
+2025:11:28 22:23:03:854:     Added: Finish
+2025:11:28 22:23:03:854:     Added: Error
+2025:11:28 22:23:03:854:   Reading string map
+2025:11:28 22:23:03:854:     No string map present
+2025:11:28 22:23:04:123:   Showing page: Welcome
+2025:11:28 22:23:09:003:   Showing page: License
+2025:11:28 22:23:12:367:   Showing page: Destination
+2025:11:28 22:23:13:952:   Setup thread started
+2025:11:28 22:23:13:952:     Installing 'ME_UnLegacy_x64.msi'
+2025:11:28 22:23:13:952:       Properties 'REBOOT=ReallySuppress ADDLOCAL=LegacyUninstallFeature'
+2025:11:28 22:23:13:966:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:23:14:017:   Showing page: Progress
+2025:11:28 22:23:16:247:       Caching MSI
+2025:11:28 22:23:16:250:       Return code: 0
+2025:11:28 22:23:16:254:     Installing 'ME_MEI_Drivers_x64.msi'
+2025:11:28 22:23:16:255:       Properties 'PRODUCTFOLDER32="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components" REBOOT=ReallySuppress ADDLOCAL=DriverFeature'
+2025:11:28 22:23:16:257:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:23:20:935:       Return code: 1603
+2025:11:28 22:23:20:937: W   Aborting install
+2025:11:28 22:23:20:940:   Updating ME Components size (ARP).
+2025:11:28 22:23:20:942:   Error while setting estimated aplication size column: 2
+2025:11:28 22:23:21:132:   Showing page: Error
+2025:11:28 22:24:19:503:   Dumping properties (37 total)
+2025:11:28 22:24:19:506:     IIF_MSILOGLEVEL=4096
+2025:11:28 22:24:19:507:     ME_WMI_STATE=1
+2025:11:28 22:24:19:508:     ME_LMS_STATE=1
+2025:11:28 22:24:19:509:     ME_NAC_STATE=1
+2025:11:28 22:24:19:510:     ME_IMSS_STATE=1
+2025:11:28 22:24:19:512:     ME_ICLS_STATE=1
+2025:11:28 22:24:19:513:     ME_VCCRT_STATE=1
+2025:11:28 22:24:19:514:     ME_DAL_STATE=1
+2025:11:28 22:24:19:518:     ME_SPE_STATE=1
+2025:11:28 22:24:19:518:     ME_GEMALTO_FW=0
+2025:11:28 22:24:19:518:     IIF_NOPRUNE=1
+2025:11:28 22:24:19:518:     IIF_NOMSITRANSACTIONS=1
+2025:11:28 22:24:19:518:     IIF_LOGFOLDER=C:\Users\hgw03\Intel\Logs
+2025:11:28 22:24:19:529:     IIF_SETUPVERSION=2.1.18.0
+2025:11:28 22:24:19:530:     IIF_PACKAGEVERSION=11.0.0.1173
+2025:11:28 22:24:19:533:     IIF_SETUPPATH=C:\swsetup\SP74467
+2025:11:28 22:24:19:538:     IIF_CACHELOC=C:\ProgramData\Intel\Package Cache\{1CEAC85D-2590-4760-800F-8DE5E91F3700}
+2025:11:28 22:24:19:540:     IIF_OS=10.0
+2025:11:28 22:24:19:542:     IIF_DEBUG_REPORTEDVERSION=6.2
+2025:11:28 22:24:19:544:     IIF_OSSERVICEPACK=0
+2025:11:28 22:24:19:547:     IIF_IS64=1
+2025:11:28 22:24:19:551:     IIF_NET40CLIENT=1
+2025:11:28 22:24:19:553:     IIF_NET40FULL=1
+2025:11:28 22:24:19:554:     IIF_NET45CLIENT=1
+2025:11:28 22:24:19:557:     IIF_NET45FULL=1
+2025:11:28 22:24:19:558:     IIF_INSTALLFOLDER=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components
+2025:11:28 22:24:19:560:     IIF_LANGCOUNTRY=ko-KR
+2025:11:28 22:24:19:562:     IIF_HASBATTERY=1
+2025:11:28 22:24:19:564:     IIF_BATTERYPOWER=100
+2025:11:28 22:24:19:569:     IIF_RESOURCEFOLDER=C:\Users\hgw03\AppData\Local\Temp\IIF210.tmp
+2025:11:28 22:24:19:570:     IIF_SETUPMODE=INSTALL
+2025:11:28 22:24:19:572:     _INF_SOL_MESRL_VERSION=11.0.0.1136
+2025:11:28 22:24:19:574:     IIF_PACKAGEPATH=C:\Users\hgw03\AppData\Local\Temp\IIF1FEB.tmp
+2025:11:28 22:24:19:576:     IIF_LICENSE=
+2025:11:28 22:24:19:579:     IIF_ACCEPTED=1
+2025:11:28 22:24:19:582:     IIF_EXITCODE=1603
+2025:11:28 22:24:19:585:     IIF_README=
+2025:11:28 22:24:19:588:   Dumping feature states
+2025:11:28 22:24:19:590:     Feature: 'LegacyUninstallFeature' | Package: '{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:591:     Feature: 'DriverFeature' | Package: '{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:593:     Feature: 'DriverFeature' | Package: '{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:607:     Feature: 'WMIFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:609:     Feature: 'VCRedist' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:609:     Feature: 'LMSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:609:     Feature: 'NACFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:619:     Feature: 'IMSSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:623:     Feature: 'DALFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:624:     Feature: 'ALL' | Package: '{97A8120A-818B-425A-89F5-C2A610A24862}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:626:     Feature: 'IntelSA' | Package: '' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:628:     Feature: 'ProductFeature' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:634:     Feature: 'VCRedist' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 22:24:19:637:   Exit code (command line): 1603
+2025:11:28 22:24:19:639:   >>> Log End
+2025:11:28 22:31:01:886:   
+2025:11:28 22:31:01:888:   >>>Dumping deffered logs
+2025:11:28 22:31:01:853:   Checking .NET version...
+2025:11:28 22:31:01:853:   Expected version: v2.0.50727
+2025:11:28 22:31:01:853:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:31:01:853:   Checking .NET version...
+2025:11:28 22:31:01:853:   Expected version: v3.0
+2025:11:28 22:31:01:854:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:31:01:854:   Checking .NET version...
+2025:11:28 22:31:01:854:   Expected version: v3.5
+2025:11:28 22:31:01:854:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:31:01:854:   Checking .NET version...
+2025:11:28 22:31:01:854:   Expected version: v4\Client
+2025:11:28 22:31:01:854:   Found registry key for the expected .NET version.
+2025:11:28 22:31:01:854:   Checking .NET version...
+2025:11:28 22:31:01:854:   Expected version: v4\Full
+2025:11:28 22:31:01:854:   Found registry key for the expected .NET version.
+2025:11:28 22:31:01:854:   Checking .NET version...
+2025:11:28 22:31:01:854:   Expected version: v4.5\Client
+2025:11:28 22:31:01:854:   Found registry key for the expected .NET version.
+2025:11:28 22:31:01:854:   Looking for .NET version 4.5 or above
+2025:11:28 22:31:01:855:   Found version: 4.8.09032
+2025:11:28 22:31:01:855:   Checking .NET version...
+2025:11:28 22:31:01:855:   Expected version: v4.5\Full
+2025:11:28 22:31:01:855:   Found registry key for the expected .NET version.
+2025:11:28 22:31:01:855:   Looking for .NET version 4.5 or above
+2025:11:28 22:31:01:855:   Found version: 4.8.09032
+2025:11:28 22:31:01:856:   Loading saved properties
+2025:11:28 22:31:01:882:   Effective command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:31:01:895:   >>> Log start
+2025:11:28 22:31:01:897:   Mutex with given name doesn't exist. Creating new one.
+
+2025:11:28 22:31:01:899:   Obtained mutex succesfully.
+2025:11:28 22:31:01:900:   Single-instance mutex has been obtained
+2025:11:28 22:31:01:903:   Core version: 2.5.51
+2025:11:28 22:31:01:904:   Setup version: 2.1.18.0
+2025:11:28 22:31:01:905:   Command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:31:01:906:   OS data: 6-2-1-0 64-bit
+2025:11:28 22:31:01:909:   System up time: 3111 sec
+2025:11:28 22:31:01:911:   Reboot pending: No
+2025:11:28 22:31:01:913:   Current UI language: 0412
+2025:11:28 22:31:01:913:   Language folder: C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp
+2025:11:28 22:31:02:216:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\ar-SA\IntelCommon.dll. Lang 0401. Rank 0
+2025:11:28 22:31:02:439:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\cs-CZ\IntelCommon.dll. Lang 0405. Rank 0
+2025:11:28 22:31:02:674:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\da-DK\IntelCommon.dll. Lang 0406. Rank 0
+2025:11:28 22:31:02:953:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\de-DE\IntelCommon.dll. Lang 0407. Rank 0
+2025:11:28 22:31:03:241:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\el-GR\IntelCommon.dll. Lang 0408. Rank 0
+2025:11:28 22:31:03:483:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\en-US\IntelCommon.dll. Lang 0409. Rank 1
+2025:11:28 22:31:03:776:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\es-ES\IntelCommon.dll. Lang 0C0A. Rank 0
+2025:11:28 22:31:04:109:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\fi-FI\IntelCommon.dll. Lang 040B. Rank 0
+2025:11:28 22:31:04:375:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\fr-FR\IntelCommon.dll. Lang 040C. Rank 0
+2025:11:28 22:31:04:659:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\he-IL\IntelCommon.dll. Lang 040D. Rank 0
+2025:11:28 22:31:04:909:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\hu-HU\IntelCommon.dll. Lang 040E. Rank 0
+2025:11:28 22:31:05:178:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\it-IT\IntelCommon.dll. Lang 0410. Rank 0
+2025:11:28 22:31:05:429:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\ja-JP\IntelCommon.dll. Lang 0411. Rank 0
+2025:11:28 22:31:05:663:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\ko-KR\IntelCommon.dll. Lang 0412. Rank 3
+2025:11:28 22:31:05:932:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\nb-NO\IntelCommon.dll. Lang 0414. Rank 0
+2025:11:28 22:31:06:191:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\nl-NL\IntelCommon.dll. Lang 0413. Rank 0
+2025:11:28 22:31:06:453:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\pl-PL\IntelCommon.dll. Lang 0415. Rank 0
+2025:11:28 22:31:06:694:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\pt-BR\IntelCommon.dll. Lang 0416. Rank 0
+2025:11:28 22:31:06:952:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\pt-PT\IntelCommon.dll. Lang 0816. Rank 0
+2025:11:28 22:31:07:203:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\ru-RU\IntelCommon.dll. Lang 0419. Rank 0
+2025:11:28 22:31:07:462:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\sk-SK\IntelCommon.dll. Lang 041B. Rank 0
+2025:11:28 22:31:07:694:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\sl-SI\IntelCommon.dll. Lang 0424. Rank 0
+2025:11:28 22:31:07:976:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\sv-SE\IntelCommon.dll. Lang 041D. Rank 0
+2025:11:28 22:31:08:220:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\th-TH\IntelCommon.dll. Lang 041E. Rank 0
+2025:11:28 22:31:08:471:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\tr-TR\IntelCommon.dll. Lang 041F. Rank 0
+2025:11:28 22:31:08:722:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\zh-CN\IntelCommon.dll. Lang 0804. Rank 0
+2025:11:28 22:31:08:949:     Found C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp\zh-TW\IntelCommon.dll. Lang 0404. Rank 0
+2025:11:28 22:31:08:959:   Loading language 0412
+2025:11:28 22:31:08:979:   Setup mode: Installation
+2025:11:28 22:31:08:981:   Looking for OS: 5.1 5.2
+2025:11:28 22:31:08:982:   Preparing to check for Kernal Mode Driver Framework 1.11 or higher
+2025:11:28 22:31:08:985:   KMDF 1.11 or higher detected!  
+2025:11:28 22:31:08:986:   Checking .NET version...
+2025:11:28 22:31:08:988:   Expected version: v3.5
+2025:11:28 22:31:08:989:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:31:08:990:   Checking .NET version...
+2025:11:28 22:31:08:992:   Expected version: v4\Client
+2025:11:28 22:31:08:994:   Found registry key for the expected .NET version.
+2025:11:28 22:31:08:995:   .NET version check passed
+2025:11:28 22:31:08:997:   Looking for OS: 5.1 5.2 6.1 6.2 6.3
+2025:11:28 22:31:08:999:   OS check passed
+2025:11:28 22:31:09:000:   Checking .NET version...
+2025:11:28 22:31:09:002:   Expected version: v3.5
+2025:11:28 22:31:09:004:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:31:09:006:   Checking .NET version...
+2025:11:28 22:31:09:007:   Expected version: v4\Client
+2025:11:28 22:31:09:009:   Found registry key for the expected .NET version.
+2025:11:28 22:31:09:009:   .NET version check passed
+2025:11:28 22:31:09:009:   Resolving driver source
+2025:11:28 22:31:09:009:     Using embedded driver(s). Temp source is 'C:\Users\hgw03\AppData\Local\Temp\IIF940E.tmp'
+2025:11:28 22:31:09:233:   Using folder 'C:\Users\hgw03\AppData\Local\Temp\IIF940E.tmp' as the driver source
+2025:11:28 22:31:09:235:   Scanning all active devices
+2025:11:28 22:31:09:486:   Scanning HECI\heci.inf (Name: HECI_HECI, Version: 11.0.0.1172)
+2025:11:28 22:31:09:489:     Section with the best match: Intel.NTamd64.10.0
+2025:11:28 22:31:09:491:       Device: PCI\VEN_8086&DEV_1E3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_1CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_1C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_1DBA (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_1D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_8C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_9C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_8D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_9CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_8CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:492:       Device: PCI\VEN_8086&DEV_9D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:508:       Device: PCI\VEN_8086&DEV_A13A (Intel(R) Management Engine Interface )
+2025:11:28 22:31:09:512:     MUP OS bits: 0xFFFFE
+2025:11:28 22:31:09:527:   Scanning SOL\mesrl.inf (Name: SOL_MESRL, Version: 11.0.0.1136)
+2025:11:28 22:31:09:529:     Section with the best match: Intel.NTamd64
+2025:11:28 22:31:09:530:       Device: PCI\VEN_8086&DEV_1E3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:533:       Device: PCI\VEN_8086&DEV_1CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:534:       Device: PCI\VEN_8086&DEV_1C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:536:       Device: PCI\VEN_8086&DEV_1DBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:538:       Device: PCI\VEN_8086&DEV_1D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:539:       Device: PCI\VEN_8086&DEV_8C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:541:       Device: PCI\VEN_8086&DEV_9C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:542:       Device: PCI\VEN_8086&DEV_9CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:544:       Device: PCI\VEN_8086&DEV_8D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:546:       Device: PCI\VEN_8086&DEV_9D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:581:         Matched with: PCI\VEN_8086&DEV_9D3D&CC_070002
+2025:11:28 22:31:09:583:         No pre-existing driver found
+2025:11:28 22:31:09:584:   		Added matched device: PCI\VEN_8086&DEV_9D3D&CC_0700
+2025:11:28 22:31:09:586:       Device: PCI\VEN_8086&DEV_A13D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:31:09:587:     MUP OS bits: 0xFFFFE
+2025:11:28 22:31:09:588:   Creating properties for all matching INF's
+2025:11:28 22:31:09:591:   Architecture supported: x86
+2025:11:28 22:31:09:598:   Architecture supported: x64
+2025:11:28 22:31:09:614:   Package folder is C:\Users\hgw03\AppData\Local\Temp\IIF9661.tmp
+2025:11:28 22:31:12:641:   Package information;
+2025:11:28 22:31:12:641:     Type MSI: ID='{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:31:12:655:     Type MSI: ID='{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:31:12:659:     Type MSI: ID='{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:31:12:662:     Type MSI: ID='{C769B4D9-C208-4FC9-BBEF-420C8C219253}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:31:12:665:     Type MSI: ID='{97A8120A-818B-425A-89F5-C2A610A24862}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:31:12:666:     Type MSI: ID='{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:31:12:673:   Preparing UI
+2025:11:28 22:31:12:733:   Reading storyboard
+2025:11:28 22:31:12:733:     Page count: 7
+2025:11:28 22:31:12:739:     Added: Welcome
+2025:11:28 22:31:12:741:     Added: Modify
+2025:11:28 22:31:12:741:     Added: License
+2025:11:28 22:31:12:744:     Added: Destination
+2025:11:28 22:31:12:746:     Added: Progress
+2025:11:28 22:31:12:747:     Added: Finish
+2025:11:28 22:31:12:750:     Added: Error
+2025:11:28 22:31:12:751:   Reading string map
+2025:11:28 22:31:12:752:     No string map present
+2025:11:28 22:31:13:017:   Showing page: Welcome
+2025:11:28 22:31:19:519:   Showing page: License
+2025:11:28 22:31:24:502:   Showing page: Destination
+2025:11:28 22:31:30:959:   Setup thread started
+2025:11:28 22:31:30:959:     Installing 'ME_UnLegacy_x64.msi'
+2025:11:28 22:31:30:959:       Properties 'REBOOT=ReallySuppress ADDLOCAL=LegacyUninstallFeature'
+2025:11:28 22:31:30:968:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:31:31:007:   Showing page: Progress
+2025:11:28 22:31:33:467:       Caching MSI
+2025:11:28 22:31:33:471:       Return code: 0
+2025:11:28 22:31:33:473:     Installing 'ME_MEI_Drivers_x64.msi'
+2025:11:28 22:31:33:474:       Properties 'PRODUCTFOLDER32="C:\Program Files (x86)\Intel\Intel(R) Management Engine Components" REBOOT=ReallySuppress ADDLOCAL=DriverFeature'
+2025:11:28 22:31:33:477:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:31:38:220:       Return code: 1603
+2025:11:28 22:31:38:223: W   Aborting install
+2025:11:28 22:31:38:226:   Updating ME Components size (ARP).
+2025:11:28 22:31:38:230:   Error while setting estimated aplication size column: 2
+2025:11:28 22:31:38:392:   Showing page: Error
+2025:11:28 22:31:43:421:   Dumping properties (37 total)
+2025:11:28 22:31:43:421:     IIF_MSILOGLEVEL=4096
+2025:11:28 22:31:43:429:     ME_WMI_STATE=1
+2025:11:28 22:31:43:431:     ME_LMS_STATE=1
+2025:11:28 22:31:43:433:     ME_NAC_STATE=1
+2025:11:28 22:31:43:435:     ME_IMSS_STATE=1
+2025:11:28 22:31:43:437:     ME_ICLS_STATE=1
+2025:11:28 22:31:43:438:     ME_VCCRT_STATE=1
+2025:11:28 22:31:43:439:     ME_DAL_STATE=1
+2025:11:28 22:31:43:441:     ME_SPE_STATE=1
+2025:11:28 22:31:43:445:     ME_GEMALTO_FW=0
+2025:11:28 22:31:43:448:     IIF_NOPRUNE=1
+2025:11:28 22:31:43:451:     IIF_NOMSITRANSACTIONS=1
+2025:11:28 22:31:43:452:     IIF_LOGFOLDER=C:\Users\hgw03\Intel\Logs
+2025:11:28 22:31:43:453:     IIF_SETUPVERSION=2.1.18.0
+2025:11:28 22:31:43:455:     IIF_PACKAGEVERSION=11.0.0.1173
+2025:11:28 22:31:43:457:     IIF_SETUPPATH=C:\swsetup\SP74467
+2025:11:28 22:31:43:459:     IIF_CACHELOC=C:\ProgramData\Intel\Package Cache\{1CEAC85D-2590-4760-800F-8DE5E91F3700}
+2025:11:28 22:31:43:460:     IIF_OS=10.0
+2025:11:28 22:31:43:462:     IIF_DEBUG_REPORTEDVERSION=6.2
+2025:11:28 22:31:43:464:     IIF_OSSERVICEPACK=0
+2025:11:28 22:31:43:466:     IIF_IS64=1
+2025:11:28 22:31:43:468:     IIF_NET40CLIENT=1
+2025:11:28 22:31:43:469:     IIF_NET40FULL=1
+2025:11:28 22:31:43:470:     IIF_NET45CLIENT=1
+2025:11:28 22:31:43:472:     IIF_NET45FULL=1
+2025:11:28 22:31:43:478:     IIF_INSTALLFOLDER=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components
+2025:11:28 22:31:43:479:     IIF_LANGCOUNTRY=ko-KR
+2025:11:28 22:31:43:481:     IIF_HASBATTERY=1
+2025:11:28 22:31:43:483:     IIF_BATTERYPOWER=100
+2025:11:28 22:31:43:483:     IIF_RESOURCEFOLDER=C:\Users\hgw03\AppData\Local\Temp\IIF7858.tmp
+2025:11:28 22:31:43:484:     IIF_SETUPMODE=INSTALL
+2025:11:28 22:31:43:484:     _INF_SOL_MESRL_VERSION=11.0.0.1136
+2025:11:28 22:31:43:484:     IIF_PACKAGEPATH=C:\Users\hgw03\AppData\Local\Temp\IIF9661.tmp
+2025:11:28 22:31:43:491:     IIF_LICENSE=
+2025:11:28 22:31:43:494:     IIF_ACCEPTED=1
+2025:11:28 22:31:43:497:     IIF_EXITCODE=1603
+2025:11:28 22:31:43:499:     IIF_README=
+2025:11:28 22:31:43:501:   Dumping feature states
+2025:11:28 22:31:43:503:     Feature: 'LegacyUninstallFeature' | Package: '{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:505:     Feature: 'DriverFeature' | Package: '{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:507:     Feature: 'DriverFeature' | Package: '{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:509:     Feature: 'WMIFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:513:     Feature: 'VCRedist' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:515:     Feature: 'LMSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:518:     Feature: 'NACFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:520:     Feature: 'IMSSFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:522:     Feature: 'DALFeature' | Package: '{C769B4D9-C208-4FC9-BBEF-420C8C219253}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:524:     Feature: 'ALL' | Package: '{97A8120A-818B-425A-89F5-C2A610A24862}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:529:     Feature: 'IntelSA' | Package: '' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:531:     Feature: 'ProductFeature' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:533:     Feature: 'VCRedist' | Package: '{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}' | Current: 'false' | New: 'true'
+2025:11:28 22:31:43:537:   Exit code (command line): 1603
+2025:11:28 22:31:43:539:   >>> Log End
+2025:11:28 22:49:52:441:   
+2025:11:28 22:49:52:441:   >>>Dumping deffered logs
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v2.0.50727
+2025:11:28 22:49:52:409:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v3.0
+2025:11:28 22:49:52:409:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v3.5
+2025:11:28 22:49:52:409:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v4\Client
+2025:11:28 22:49:52:409:   Found registry key for the expected .NET version.
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v4\Full
+2025:11:28 22:49:52:409:   Found registry key for the expected .NET version.
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v4.5\Client
+2025:11:28 22:49:52:409:   Found registry key for the expected .NET version.
+2025:11:28 22:49:52:409:   Looking for .NET version 4.5 or above
+2025:11:28 22:49:52:409:   Found version: 4.8.09032
+2025:11:28 22:49:52:409:   Checking .NET version...
+2025:11:28 22:49:52:409:   Expected version: v4.5\Full
+2025:11:28 22:49:52:409:   Found registry key for the expected .NET version.
+2025:11:28 22:49:52:409:   Looking for .NET version 4.5 or above
+2025:11:28 22:49:52:409:   Found version: 4.8.09032
+2025:11:28 22:49:52:409:   Loading saved properties
+2025:11:28 22:49:52:425:   Effective command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:49:52:449:   >>> Log start
+2025:11:28 22:49:52:451:   Mutex with given name doesn't exist. Creating new one.
+
+2025:11:28 22:49:52:451:   Obtained mutex succesfully.
+2025:11:28 22:49:52:451:   Single-instance mutex has been obtained
+2025:11:28 22:49:52:451:   Core version: 2.5.51
+2025:11:28 22:49:52:457:   Setup version: 2.1.18.0
+2025:11:28 22:49:52:459:   Command line: "C:\swsetup\SP74467\Setup.exe"
+2025:11:28 22:49:52:459:   OS data: 6-2-1-0 64-bit
+2025:11:28 22:49:52:459:   System up time: 4241 sec
+2025:11:28 22:49:52:459:   Reboot pending: No
+2025:11:28 22:49:52:459:   Current UI language: 0412
+2025:11:28 22:49:52:459:   Language folder: C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp
+2025:11:28 22:49:52:726:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\ar-SA\IntelCommon.dll. Lang 0401. Rank 0
+2025:11:28 22:49:52:945:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\cs-CZ\IntelCommon.dll. Lang 0405. Rank 0
+2025:11:28 22:49:53:147:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\da-DK\IntelCommon.dll. Lang 0406. Rank 0
+2025:11:28 22:49:53:360:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\de-DE\IntelCommon.dll. Lang 0407. Rank 0
+2025:11:28 22:49:53:578:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\el-GR\IntelCommon.dll. Lang 0408. Rank 0
+2025:11:28 22:49:53:844:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\en-US\IntelCommon.dll. Lang 0409. Rank 1
+2025:11:28 22:49:54:065:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\es-ES\IntelCommon.dll. Lang 0C0A. Rank 0
+2025:11:28 22:49:54:330:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\fi-FI\IntelCommon.dll. Lang 040B. Rank 0
+2025:11:28 22:49:54:541:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\fr-FR\IntelCommon.dll. Lang 040C. Rank 0
+2025:11:28 22:49:54:779:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\he-IL\IntelCommon.dll. Lang 040D. Rank 0
+2025:11:28 22:49:55:046:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\hu-HU\IntelCommon.dll. Lang 040E. Rank 0
+2025:11:28 22:49:55:322:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\it-IT\IntelCommon.dll. Lang 0410. Rank 0
+2025:11:28 22:49:55:538:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\ja-JP\IntelCommon.dll. Lang 0411. Rank 0
+2025:11:28 22:49:55:821:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\ko-KR\IntelCommon.dll. Lang 0412. Rank 3
+2025:11:28 22:49:56:080:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\nb-NO\IntelCommon.dll. Lang 0414. Rank 0
+2025:11:28 22:49:56:325:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\nl-NL\IntelCommon.dll. Lang 0413. Rank 0
+2025:11:28 22:49:56:541:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\pl-PL\IntelCommon.dll. Lang 0415. Rank 0
+2025:11:28 22:49:56:825:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\pt-BR\IntelCommon.dll. Lang 0416. Rank 0
+2025:11:28 22:49:57:047:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\pt-PT\IntelCommon.dll. Lang 0816. Rank 0
+2025:11:28 22:49:57:274:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\ru-RU\IntelCommon.dll. Lang 0419. Rank 0
+2025:11:28 22:49:57:489:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\sk-SK\IntelCommon.dll. Lang 041B. Rank 0
+2025:11:28 22:49:57:703:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\sl-SI\IntelCommon.dll. Lang 0424. Rank 0
+2025:11:28 22:49:57:946:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\sv-SE\IntelCommon.dll. Lang 041D. Rank 0
+2025:11:28 22:49:58:161:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\th-TH\IntelCommon.dll. Lang 041E. Rank 0
+2025:11:28 22:49:58:379:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\tr-TR\IntelCommon.dll. Lang 041F. Rank 0
+2025:11:28 22:49:58:644:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\zh-CN\IntelCommon.dll. Lang 0804. Rank 0
+2025:11:28 22:49:58:874:     Found C:\Users\hgw03\AppData\Local\Temp\IIFB88A.tmp\zh-TW\IntelCommon.dll. Lang 0404. Rank 0
+2025:11:28 22:49:58:881:   Loading language 0412
+2025:11:28 22:49:58:902:   Setup mode: Installation
+2025:11:28 22:49:58:902:   Looking for OS: 5.1 5.2
+2025:11:28 22:49:58:902:   Preparing to check for Kernal Mode Driver Framework 1.11 or higher
+2025:11:28 22:49:58:902:   KMDF 1.11 or higher detected!  
+2025:11:28 22:49:58:902:   Checking .NET version...
+2025:11:28 22:49:58:911:   Expected version: v3.5
+2025:11:28 22:49:58:911:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:49:58:911:   Checking .NET version...
+2025:11:28 22:49:58:911:   Expected version: v4\Client
+2025:11:28 22:49:58:911:   Found registry key for the expected .NET version.
+2025:11:28 22:49:58:911:   .NET version check passed
+2025:11:28 22:49:58:911:   Looking for OS: 5.1 5.2 6.1 6.2 6.3
+2025:11:28 22:49:58:911:   OS check passed
+2025:11:28 22:49:58:911:   Checking .NET version...
+2025:11:28 22:49:58:911:   Expected version: v3.5
+2025:11:28 22:49:58:911:   Couldn't open or find registry key for the expected .NET version
+2025:11:28 22:49:58:911:   Checking .NET version...
+2025:11:28 22:49:58:927:   Expected version: v4\Client
+2025:11:28 22:49:58:927:   Found registry key for the expected .NET version.
+2025:11:28 22:49:58:927:   .NET version check passed
+2025:11:28 22:49:58:927:   Resolving driver source
+2025:11:28 22:49:58:927:     Using embedded driver(s). Temp source is 'C:\Users\hgw03\AppData\Local\Temp\IIFD1D0.tmp'
+2025:11:28 22:49:59:131:   Using folder 'C:\Users\hgw03\AppData\Local\Temp\IIFD1D0.tmp' as the driver source
+2025:11:28 22:49:59:131:   Scanning all active devices
+2025:11:28 22:49:59:354:   Scanning HECI\heci.inf (Name: HECI_HECI, Version: 11.0.0.1172)
+2025:11:28 22:49:59:354:     Section with the best match: Intel.NTamd64.10.0
+2025:11:28 22:49:59:354:       Device: PCI\VEN_8086&DEV_1E3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:354:       Device: PCI\VEN_8086&DEV_1CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:362:       Device: PCI\VEN_8086&DEV_1C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:364:       Device: PCI\VEN_8086&DEV_1DBA (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:365:       Device: PCI\VEN_8086&DEV_1D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:367:       Device: PCI\VEN_8086&DEV_8C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:369:       Device: PCI\VEN_8086&DEV_9C3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:369:       Device: PCI\VEN_8086&DEV_8D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:369:       Device: PCI\VEN_8086&DEV_9CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:369:       Device: PCI\VEN_8086&DEV_8CBA (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:375:       Device: PCI\VEN_8086&DEV_9D3A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:375:       Device: PCI\VEN_8086&DEV_A13A (Intel(R) Management Engine Interface )
+2025:11:28 22:49:59:375:     MUP OS bits: 0xFFFFE
+2025:11:28 22:49:59:391:   Scanning SOL\mesrl.inf (Name: SOL_MESRL, Version: 11.0.0.1136)
+2025:11:28 22:49:59:393:     Section with the best match: Intel.NTamd64
+2025:11:28 22:49:59:395:       Device: PCI\VEN_8086&DEV_1E3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:397:       Device: PCI\VEN_8086&DEV_1CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:398:       Device: PCI\VEN_8086&DEV_1C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:400:       Device: PCI\VEN_8086&DEV_1DBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:402:       Device: PCI\VEN_8086&DEV_1D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:404:       Device: PCI\VEN_8086&DEV_8C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:405:       Device: PCI\VEN_8086&DEV_9C3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:405:       Device: PCI\VEN_8086&DEV_9CBD&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:407:       Device: PCI\VEN_8086&DEV_8D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:409:       Device: PCI\VEN_8086&DEV_9D3D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:438:         Matched with: PCI\VEN_8086&DEV_9D3D&CC_070002
+2025:11:28 22:49:59:440:         No pre-existing driver found
+2025:11:28 22:49:59:442:   		Added matched device: PCI\VEN_8086&DEV_9D3D&CC_0700
+2025:11:28 22:49:59:444:       Device: PCI\VEN_8086&DEV_A13D&CC_0700 (Intel(R) Active Management Technology - SOL)
+2025:11:28 22:49:59:445:     MUP OS bits: 0xFFFFE
+2025:11:28 22:49:59:449:   Creating properties for all matching INF's
+2025:11:28 22:49:59:449:   Architecture supported: x86
+2025:11:28 22:49:59:449:   Architecture supported: x64
+2025:11:28 22:49:59:449:   Package folder is C:\Users\hgw03\AppData\Local\Temp\IIFD3D5.tmp
+2025:11:28 22:50:02:376:   Package information;
+2025:11:28 22:50:02:379:     Type MSI: ID='{A9F98C81-482E-4B1F-B7AD-B8963AA3BAAE}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:50:02:379:     Type MSI: ID='{EBB4E1B1-D0A2-4F8E-BAFC-EF49A4D4E2A7}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:50:02:383:     Type MSI: ID='{7F26F9B8-4011-417B-A8F8-3D12D264CAEC}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:50:02:383:     Type MSI: ID='{C769B4D9-C208-4FC9-BBEF-420C8C219253}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:50:02:383:     Type MSI: ID='{97A8120A-818B-425A-89F5-C2A610A24862}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:50:02:383:     Type MSI: ID='{DAB2D6B9-54CE-4225-B2C6-0535AEEF18A9}', Installed version: <Not installed>, Extracted: Yes
+2025:11:28 22:50:02:383:   Preparing UI
+2025:11:28 22:50:02:453:   Reading storyboard
+2025:11:28 22:50:02:453:     Page count: 7
+2025:11:28 22:50:02:453:     Added: Welcome
+2025:11:28 22:50:02:460:     Added: Modify
+2025:11:28 22:50:02:461:     Added: License
+2025:11:28 22:50:02:463:     Added: Destination
+2025:11:28 22:50:02:463:     Added: Progress
+2025:11:28 22:50:02:467:     Added: Finish
+2025:11:28 22:50:02:467:     Added: Error
+2025:11:28 22:50:02:467:   Reading string map
+2025:11:28 22:50:02:467:     No string map present
+2025:11:28 22:50:02:715:   Showing page: Welcome
+2025:11:28 22:50:08:133:   Showing page: License
+2025:11:28 22:50:14:861:   Showing page: Destination
+2025:11:28 22:51:15:466:   Setup thread started
+2025:11:28 22:51:15:466:     Installing 'ME_UnLegacy_x64.msi'
+2025:11:28 22:51:15:472:       Properties 'REBOOT=ReallySuppress ADDLOCAL=LegacyUninstallFeature'
+2025:11:28 22:51:15:476:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:51:15:515:   Showing page: Progress
+2025:11:28 22:51:17:442:       Caching MSI
+2025:11:28 22:51:17:448:       Return code: 0
+2025:11:28 22:51:17:450:     Installing 'ME_MEI_Drivers_x64.msi'
+2025:11:28 22:51:17:452:       Properties 'PRODUCTFOLDER32="C:\Program Files (x86)\Intel" REBOOT=ReallySuppress ADDLOCAL=DriverFeature'
+2025:11:28 22:51:17:453:       Setting MSI log file to 'IntelME_MSI.log'. Verbosity level is 4096
+2025:11:28 22:51:21:335:       Return code: 1603
+2025:11:28 22:51:21:335: W   Aborting install
+2025:11:28 22:51:21:335:   Updating ME Components size (ARP).
+2025:11:28 22:51:21:353:   Error while setting estimated aplication size column: 2
+2025:11:28 22:51:21:509:   Showing page: Error
+2025:11:28 22:51:28:608:   Link: Launching 'C:\Users\hgw03\Intel\Logs'
