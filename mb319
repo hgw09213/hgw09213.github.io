@@ -1,0 +1,38 @@
+// class pointer
+
+#include <iostream>
+using namespace std;
+
+class cal {
+public:
+	int a, b;
+};
+
+int main() {
+	cal a;
+	cal* b = &a;
+	cout << a.a;
+	cout << b->a;
+
+	return 0;
+}
+
+//
+
+
+// new :  heap 메모리에 주소잡고 위치 알려줌
+#include <iostream>
+using namespace std;
+
+class cal {
+public:
+	int a, b;
+};
+
+int main() {
+	cal* b = new(cal);
+	b->a = 5;
+	cout << b->a << endl;
+
+	return 0;
+}
