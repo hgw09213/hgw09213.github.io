@@ -1,0 +1,20 @@
+MainActivity.java
+public void onClicked(View v){
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1234-5678"));
+        startActivity(intent);
+    }
+    
+activity_main.xml
+ <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="onClicked"
+        android:text="전화통화"
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintEnd_toEndOf="@+id/textView1" />
+        
+strings.xml
+<string name="test">Hello Dongseo~~!</string>
