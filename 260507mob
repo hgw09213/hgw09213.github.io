@@ -1,0 +1,206 @@
+xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="31dp"
+        android:text="Value1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="532dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="172dp"
+        android:text="Value2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="524dp"
+        android:text="Result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:onClick="plus_cal"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="76dp"
+        android:onClick="sub_cal"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="184dp"
+        android:onClick="mul_cal"
+        android:text="*"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="184dp"
+        android:onClick="div_cal"
+        android:text="/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+java
+package com.example.myapplication;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class MainActivity extends AppCompatActivity {
+
+    EditText eText1;
+    EditText eText2;
+    EditText eText3;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_main);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+}
+
+    public void plus_cal(View e){
+        eText1 = (EditText) findViewById(R.id.EditText1);
+        eText2 = (EditText) findViewById(R.id.EditText2);
+        eText3 = (EditText) findViewById(R.id.EditText3);
+
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+
+        int result = Integer.parseInt(s1) + Integer.parseInt(s2);
+
+        String temp=""+result;
+        eText3.setText(temp);
+
+    }
+
+    public void sub_cal(View e){
+        eText1 = (EditText) findViewById(R.id.EditText1);
+        eText2 = (EditText) findViewById(R.id.EditText2);
+        eText3 = (EditText) findViewById(R.id.EditText3);
+
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+
+        int result = Integer.parseInt(s1) - Integer.parseInt(s2);
+
+        String temp=""+result;
+        eText3.setText(temp);
+
+    }
+
+    public void mul_cal(View e){
+        eText1 = (EditText) findViewById(R.id.EditText1);
+        eText2 = (EditText) findViewById(R.id.EditText2);
+        eText3 = (EditText) findViewById(R.id.EditText3);
+
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+
+        int result = Integer.parseInt(s1) * Integer.parseInt(s2);
+
+        String temp=""+result;
+        eText3.setText(temp);
+
+    }
+
+    public void div_cal(View e){
+        eText1 = (EditText) findViewById(R.id.EditText1);
+        eText2 = (EditText) findViewById(R.id.EditText2);
+        eText3 = (EditText) findViewById(R.id.EditText3);
+
+        String s1 = eText1.getText().toString();
+        String s2 = eText2.getText().toString();
+
+        int result = Integer.parseInt(s1) / Integer.parseInt(s2);
+
+        String temp=""+result;
+        eText3.setText(temp);
+
+    }
+}
