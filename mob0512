@@ -1,0 +1,12 @@
+MainACtivity1 // 스택을 쌓음 ( 다음 페이지로 넘어감 )
+
+ public void onclick(View e){
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        startActivity(intent);
+    }
+
+MainACtivity2 // 스택 해제 ( 이전 페이지로 돌아옴 )
+
+public void onclick(View e){
+        finish();
+    }
