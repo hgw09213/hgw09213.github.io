@@ -1,0 +1,23 @@
+페이지 이동 클래스
+// 1에서 2로 (스택 쌓기)
+public void onClick(View e){
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        startActivity(intent);
+    }
+
+// 2에서 3으로 (스택 쌓기)
+public void p2_btn1(View e){
+        Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+        startActivity(intent);
+    }
+
+// 3에서 2로 (스택 해제)
+public void p3Click(View e){
+        finish();
+    }
+
+// 통화로 이동 ( 코드 잘못된 점 찾기, 이 상태론 오류 )
+public void p2_btn2(View e){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("Tel:010-1234-5678"));
+        startActivity(intent);
+    }
