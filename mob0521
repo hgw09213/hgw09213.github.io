@@ -1,0 +1,36 @@
+// 이미지 넣는 경로
+C:\Users\U303-12\AndroidStudioProjects\MyApplication4\app\src\main\res\drawable
+
+// 명시적 Intent ( 자세한 코드는 강의 자료 확인 )
+new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent=new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+                finish(); // 여기서 스택을 죽임
+            }
+        },2000);
+
+// 암묵적 Intent
+public void OnCall(View e){
+        Intent intent=new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:010-1234-5678"));
+        startActivity(intent);
+    }
+    public void onBook(View e){
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("content://contacts/people/"));
+        startActivity(intent);
+    }
+
+    public void onHttp(View e){
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.google.com"));
+        startActivity(intent);
+    }
+
+    public void onMap(View e){
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("geo:37.30,127.2?z=10"));
+        startActivity(intent);
+    }
+
+
+
