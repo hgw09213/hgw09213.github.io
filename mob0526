@@ -1,0 +1,30 @@
+// 단방향 Intent (13주차 ppt) 값 넘기기
+// Main1
+EditText eText;
+    public void onClick(View e) {
+        eText = (EditText) findViewById(R.id.Number1);
+        String s1=eText.getText().toString();
+        int i1=Integer.parseInt(s1);
+        Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+        intent.putExtra("int_data", i1);
+        startActivity(intent);
+    }
+
+// Main2
+EditText eText;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_main2);
+
+        eText = (EditText) findViewById(R.id.ResNumber1);
+        Intent intent = getIntent();
+        int val=intent.getIntExtra("int_data",0);
+        eText.setText(""+val);
+
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
